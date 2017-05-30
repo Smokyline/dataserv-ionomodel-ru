@@ -1,0 +1,293 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- DW6 -->
+<head>
+
+
+
+        <script src="js/jquery-latest.min.js"></script>
+        <script src="js/slides.min.jquery.js"></script>
+    	<script src="js/slidesLoader.js"></script>
+
+
+
+<!-- Copyright 2005 Macromedia, Inc. All rights reserved. -->
+<title>Russian-Ukrainian Geomagnetic Data Center</title>
+<meta name="description" content="Interactive access to the Russian and Ukrainian magnetic observatory data. Automated system of data quality control." />
+<meta name="keywords" content="Geophysical Center RAS, geomagnetism, observatories, stations, data, magnetic, field, Earth" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link rel="stylesheet" href="/static/geomag.css" type="text/css" />
+<link rel="stylesheet" href="/static/slides.css" type="text/css" />
+
+<link rel="shortcut icon" type="image/gif" href="http://www.gcras.ru/gcicon.gif" />
+<link rel="shortcut icon" type="image/x-icon" href="http://www.gcras.ru/favicon.ico" />
+
+<script src="/static/js/dynElements.js" type="text/javascript"></script>
+
+<script src="/static/js/stat.js" type="text/javascript"></script>
+
+</head>
+<body bgcolor="#64748B" onload="javascript:nextEvent('en');">
+
+<table border="0" cellspacing="0" cellpadding="0" align="center"><tr align="center"><td align="center">
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr bgcolor="#26354A">
+	<td width="15" nowrap="nowrap"><img src="img/mm_spacer.gif" alt="" width="15" height="1" border="0" /></td>
+	<td height="70" width="100%" colspan="4" class="logo" nowrap="nowrap">Geomagnetic Data Center <span class="tagline">| RUSSIA UKRAINE</span>&nbsp;&nbsp;<a href="http://www.gcras.ru/eng/" title="Geophysical Center RAS" target="_blank"><img src="img/gcraslogo-small3.png" width="54" height="49" align="absmiddle" border="0" /></a>&nbsp;<a href="http://www.igph.kiev.ua/" title="Subbotin Institute of Geophysics of the National Academy of Sciences of Ukraine" target="_blank"><img src="img/igf_nanu_logo-small5.png" width="62" height="49" align="absmiddle" border="0" /></a>&nbsp;<a href="http://www.intermagnet.org/" title="INTERMAGNET" target="_blank"><img src="img/imag5.png" width="49" height="49" align="absmiddle" border="0" /></a></td>
+    <td width="15" nowrap="nowrap"><img src="img/mm_spacer.gif" alt="" width="15" height="1" border="0" /></td>
+<!--	<td width="40">&nbsp;</td>
+	<td width="100%">&nbsp;</td>-->
+	</tr>
+
+	<tr bgcolor="#FF6600">
+	<td colspan="6"><img src="img/mm_spacer.gif" alt="" width="1" height="4" border="0" /></td>
+	</tr>
+
+	<tr bgcolor="#D3DCE6">
+	<td colspan="6"><img src="img/mm_spacer.gif" alt="" width="1" height="1" border="0" /></td>
+	</tr>
+
+	<tr bgcolor="#FFCC00">
+	<td width="15" nowrap="nowrap">&nbsp;</td>
+	<td width="765" colspan="3" height="24">
+
+      <ul id="menu">
+       <li><div class="selected_nav_menu">HOME</div>
+       </li>
+       <li><a href="dataprod.html">DATA PRODUCTS</a>
+        <ul>
+         <li><a href="dataprod-down.html">Download</a></li>
+         <li><a href="dataprod-plot.html">Plot</a></li>
+         <li><a href="#">Realtime</a></li>
+        </ul>
+       </li>
+       <li><a href="obs.html">OBSERVATORIES</a>
+	   <ul>
+    <li><a href="obs-AIA.html">Akad. Vernadsky (AIA)</a></li>
+   <li><a href="obs-ARS.html">Arti (ARS)</a></li>
+   <li><a href="obs-POD.html">Bor (POD)</a></li>
+    <li><a href="obs-BOX.html">Borok (BOX)</a></li>
+    <li><a href="obs-CPS.html">Cape Schmidt (CPS)</a></li>
+    <li><a href="obs-IRT.html">Irkutsk (IRT)</a></li>
+    <li><a href="obs-KZN.html">Kazan (KZN)</a></li>
+    <li><a href="obs-KHB.html">Khabarovsk (KHB)</a></li>
+    <li><a href="obs-KIV.html">Kiev (KIV)</a></li>
+    <li><a href="obs-KLI.html">Klimovskaya (KLI)</a></li>
+    <li><a href="obs-LVV.html">Lviv (LVV)</a></li>
+    <li><a href="obs-MGD.html">Magadan (MGD)</a></li>
+    <li><a href="obs-MOS.html">Moskva (MOS)</a></li>
+    <li><a href="obs-NVS.html">Novosibirsk (NVS)</a></li>
+    <li><a href="obs-ODE.html">Odessa (ODE)</a></li>
+	<li><a href="obs-PET.html">Paratunka (PET)</a></li>
+    <li><a href="obs-SPG.html">Saint Petersburg (SPG)</a></li>
+    <li><a href="obs-YAK.html">Yakutsk (YAK)</a></li>
+        </ul>
+       </li>
+       <li><a href="#">DATA SERVICES</a>
+        <ul>
+
+				<li><a href="dataserv-gis.html">GIS Magnetic Services</a></li>
+				<li><a href="dataserv-extplot.html">Geomagnetic Activity</a></li>
+                 <li><a href="dataserv-desp.html">Despiking Data</a></li>
+                 <li><a href="dataserv-abs.html">Absolute/Baseline Data</a></li>
+                 <li><a href="dataserv-absforms.html">Absolute Forms (Restricted)</a></li>
+
+        </ul>
+       </li>
+       <li><a href="#">MATERIALS</a>
+        <ul>
+         <li><a href="materials-publ.html">Publications</a></li>
+         <li><a href="materials-man.html">User Manuals</a></li>
+         <li><a href="materials-graph.html">Fullsize Graphics</a></li>
+		 <li><a href="materials-soft.html">Software</a></li>
+        </ul>
+       </li>
+       <li><a href="contacts.html">CONTACT US</a>
+       </li>
+       <li><a href="datapolicy.html">DATA POLICY</a>
+       </li>
+      </ul>
+
+
+    </td>
+	<td align="right"><a href="index-ru.html" title="Русский"><img src="img/flag-ru.png" alt="Русский" width="21" height="21" align="absmiddle" border="0" /></a></td>
+    <td width="15">&nbsp;</td>
+	</tr>
+
+	<tr bgcolor="#D3DCE6">
+	<td colspan="6"><img src="img/mm_spacer.gif" alt="" width="1" height="1" border="0" /></td>
+	</tr>
+
+	<tr bgcolor="#FF6600">
+	<td colspan="6"><img src="img/mm_spacer.gif" alt="" width="1" height="4" border="0" /></td>
+	</tr>
+
+
+	<tr bgcolor="#D3DCE6">
+	<td width="15" valign="top">&nbsp;</td>
+
+	<td width="100%" valign="top" align="center" ><br />
+	&nbsp;<br />
+	<table border="0" cellspacing="0" cellpadding="2" width="620">
+		<!--<tr>
+		<td class="pageName">Absolute / Baseline Data</td>
+		</tr>-->
+
+		<tr>
+		<td class="bodyText">
+
+            <!-- -->
+
+        <form name="form1" action="javascript:absDataRequest('div1', 'sel_obs', 'form1');">
+            <p><strong>Select data type:</strong>&nbsp;
+
+            <select id="sel_dt" class="detailText" onChange="this.options[this.selectedIndex].onclick()">
+             <option onclick="javascript:selectControl.unselectAll();"></option>22299172 <option value="fac" onclick="javascript:selectControl.unselectAll();selectControl.select(map.getLayer('vectors1').getFeatureById('AIA')); yaCounter22299172.reachGoal('AIAa'); return true;">fac</option>
+             <option onclick="javascript:selectControl.unselectAll();"></option>22299172 <option value="potential" onclick="javascript:selectControl.unselectAll();selectControl.select(map.getLayer('vectors1').getFeatureById('AIA')); yaCounter22299172.reachGoal('AIAa'); return true;">potential</option>
+            </select>
+			<p>
+
+            <strong>Select hemisphere:</strong>&nbsp;
+
+            <select id="sel_hemi" class="detailText" onChange="this.options[this.selectedIndex].onclick()">
+             <option onclick="javascript:selectControl.unselectAll();"></option>22299172 <option value="N" onclick="javascript:selectControl.unselectAll();selectControl.select(map.getLayer('vectors1').getFeatureById('AIA')); yaCounter22299172.reachGoal('AIAa'); return true;">N</option>
+             <option onclick="javascript:selectControl.unselectAll();"></option>22299172 <option value="S" onclick="javascript:selectControl.unselectAll();selectControl.select(map.getLayer('vectors1').getFeatureById('AIA')); yaCounter22299172.reachGoal('AIAa'); return true;">S</option>
+            </select>
+            </p>
+
+			<table border="0" cellspacing="0" cellpadding="0">
+
+
+              <tr>
+                <td colspan="4"><br />
+                	<table border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td class="bodyText">
+
+                            Bz<input type="text" name="timeFrom_y"  value="1" maxlength="2" size="2" class="detailText" onclick="javascript:document.getElementById('sel_date').checked = true;" />
+                            <br>
+                            By<input type="text" name="timeFrom_mo" value="1"   maxlength="2" size="2" class="detailText" onclick="javascript:document.getElementById('sel_date').checked = true;" />
+                            <br>
+                            DOY<input type="text" name="timeFrom_d"  value="1"   maxlength="2" size="2" class="detailText" onclick="javascript:document.getElementById('sel_date').checked = true;" />
+                            <br>
+                            Kp<input type="text" name="timeFrom_h"  value="1"   maxlength="2" size="2" class="detailText" onclick="javascript:document.getElementById('sel_date').checked = true;" />
+                            <br>
+                            F107<input type="text" name="timeFrom_mi" value="100"   maxlength="4" size="4" class="detailText" onclick="javascript:document.getElementById('sel_date').checked = true;" />
+                            <br>
+                            UT<input type="text" name="timeFrom_s"  value="1"   maxlength="2" size="2" class="detailText" onclick="javascript:document.getElementById('sel_date').checked = true;" />
+                        </td>
+                      </tr>
+
+                        <!--
+                      <tr>
+                        <td class="bodyText"><input type="radio" id="lastMonth" value="lastMonth" name="date" checked="checked" /></td>
+                        <td colspan="2" class="bodyText"><label for="lastMonth">&nbsp;Last 1-month data available</label></td>
+                      </tr>-->
+                    </table><br />
+                </td>
+              </tr>
+              <tr>
+                <td colspan="4" class="bodyText">
+                	<table border="0" width="100%" cellpadding="0" cellspacing="0">
+                		<tr>
+                        	<td class="bodyText"><input type="radio" id="plot" value="plot" name="absres" checked="checked" /></td>
+                            <td class="bodyText"><label for="plot">Plot data&nbsp;<a href = "help-plot-abs.html" onclick="window.open(this.href, 'newwindow','width=630, height=700,left=300,location=no,resizable=no, scrollbars=yes, toolbar=no'); return false;" target = "_blank"><img src="/static/image/qm16.gif" width="16" height="16" border="0" /></a>&nbsp;&nbsp;Image size (width x height):&nbsp;</label>
+                            					 <input type="text" name="img_w"  value="800" maxlength="4" size="3" class="detailText" onclick="javascript:document.getElementById('plot').checked = true;" />&nbsp;x
+                                                 <input type="text" name="img_h" value="800" maxlength="4" size="3" class="detailText" onclick="javascript:document.getElementById('plot').checked = true;" /></td>
+               			</tr>
+                		<tr><td class="bodyText">
+                            <input type="radio" id="ascii" value="ascii" name="absres" /></td>
+                            <td class="bodyText"><label for="ascii">ASCII format (CSV)</label>&nbsp;<a href = "help-csv-abs.html" onclick="window.open(this.href, 'newwindow','width=630, height=700,left=300,location=no,resizable=no, scrollbars=yes, toolbar=no'); return false;" target = "_blank"><img src="/static/image/qm16.gif" width="16" height="16" border="0" /></a></td>
+                        </tr>
+                    </table>
+                </td>
+              </tr>
+
+              <tr>
+                  <td colspan="4" class="bodyText">
+                	<table border="0" width="100%" cellpadding="0" cellspacing="0">
+                		<tr><p>
+                            <a href = "image_view/0" onclick="window.open(this.href, 'newwindow','width=630, height=700,left=300,location=no,resizable=no, scrollbars=yes, toolbar=no'); return false;" target = "_blank">s_fac </a>
+               			</p>
+                        </tr>
+                        <tr>
+                            <p>
+                            <a href = "image_view/1" onclick="window.open(this.href, 'newwindow','width=630, height=700,left=300,location=no,resizable=no, scrollbars=yes, toolbar=no'); return false;" target = "_blank">s_potential</a>
+               			    </p>
+                        </tr>
+                        <tr>
+                            <p>
+                            <a href = "image_view/2" onclick="window.open(this.href, 'newwindow','width=630, height=700,left=300,location=no,resizable=no, scrollbars=yes, toolbar=no'); return false;" target = "_blank">n_potential</a>
+               			    </p>
+                        </tr>
+                        <tr>
+                            <p>
+                            <a href = "image_view/3" onclick="window.open(this.href, 'newwindow','width=630, height=700,left=300,location=no,resizable=no, scrollbars=yes, toolbar=no'); return false;" target = "_blank">n_fac</a>
+               			    </p>
+                        </tr>
+                            <td colspan="4" class="bodyText" align="center"><input type="submit" class="detailText" value="Submit" /></td>
+
+                    </table>
+                </td>
+
+                  <!-- -<td colspan="4" align="center" height="14px"></td> -->
+
+              </tr>
+
+
+            </table>
+            <!--<em>By pressing the &quot;Submit&quot; button you accept the conditions of data use given in <a href="datapolicy.html" target="_blank">DATA POLICY</a> section.</em>-->
+        </form>
+
+
+
+        <br />
+        <div id="div1"></div>
+
+
+
+		</td>
+		</tr>
+	</table>
+	 <br />
+
+
+
+
+
+
+
+ 	&nbsp;<br />	</td>
+	<td width="15">&nbsp;</td>
+	</tr>
+
+	<tr bgcolor="#D3DCE6">
+	<td colspan="3"><img src="img/mm_spacer.gif" alt="" width="1" height="1" border="0" /></td>
+	</tr>
+
+
+</table>
+
+
+
+</td></tr></table>     <!-- CLOSE CENTERED TABLE  -->
+
+</body>
+</html>
+
+<!--    </td>
+	<td>&nbsp;</td>
+	</tr>
+
+	<tr>
+	<td width="15">&nbsp;<br />
+	&nbsp;<br />	</td>
+    <td width="35">&nbsp;</td>
+    <td width="710">&nbsp;</td>
+	<td width="100%">&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

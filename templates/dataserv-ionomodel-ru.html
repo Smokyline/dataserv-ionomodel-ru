@@ -1,0 +1,216 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- DW6 -->
+<head>
+<!-- Copyright 2005 Macromedia, Inc. All rights reserved. -->
+<title>Центр геомагнитных данных</title>
+<meta name="keywords" content="Geophysical Center RAS, geomagnetism, observatories, stations, data, magnetic, field, Earth" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="geomag.css" type="text/css" />
+<link rel="shortcut icon" type="image/gif" href="http://www.gcras.ru/gcicon.gif" />
+<link rel="shortcut icon" type="image/x-icon" href="http://www.gcras.ru/favicon.ico" />
+
+<script src="js/jquery-latest.min.js"></script>
+<script src="js/stat.js" type="text/javascript"></script>
+
+</head>
+<body bgcolor="#64748B">
+
+<table border="0" cellspacing="0" cellpadding="0" align="center"><tr align="center"><td align="center">
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr bgcolor="#26354A">
+	<td width="45" nowrap="nowrap"><img src="/static/geomag-site/mm_spacer.gif" alt="" width="45" height="1" border="0" /></td>
+		<td height="70" width="100%" class="logo" nowrap="nowrap">Центр геомагнитных данных</span>&nbsp;&nbsp;<a href="http://www.gcras.ru/" title="Геофизический центр РАН" target="_blank"><img src="/static/geomag-site/gcraslogo-small3.png" width="54" height="49" align="absmiddle" border="0" /></a>&nbsp;<a href="http://www.intermagnet.org/" title="INTERMAGNET" target="_blank"><img src="/static/geomag-site/imag5.png" width="49" height="49" align="absmiddle" border="0" /></a></td>
+        <td width="45" nowrap="nowrap"><img src="/static/geomag-site/mm_spacer.gif" alt="" width="45" height="1" border="0" /></td>
+	</tr>
+
+	<tr bgcolor="#FF6600">
+	<td colspan="3"><img src="/static/geomag-site/mm_spacer.gif" alt="" width="1" height="4" border="0" /></td>
+	</tr>
+
+	<tr bgcolor="#D3DCE6">
+	<td colspan="3"><img src="/static/geomag-site/mm_spacer.gif" alt="" width="1" height="1" border="0" /></td>
+	</tr>
+
+	<tr bgcolor="#FFCC00">
+	<td width="15" nowrap="nowrap">&nbsp;</td>
+	<td width="100%" height="24">
+
+	  <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+		<tr>
+ 
+      
+			<td width="100%" height="24" align="right">&nbsp;</td>      
+      
+     	</tr>
+      </table> 
+      	
+	</td>
+	<td width="15" nowrap="nowrap">&nbsp;</td>
+
+	</tr>
+
+	<tr bgcolor="#D3DCE6">
+	<td colspan="3"><img src="/static/geomag-site/mm_spacer.gif" alt="" width="1" height="1" border="0" /></td>
+	</tr>
+
+	<tr bgcolor="#FF6600">
+	<td colspan="3"><img src="/static/geomag-site/mm_spacer.gif" alt="" width="1" height="4" border="0" /></td>
+	</tr>
+
+	<tr bgcolor="#D3DCE6">
+	<td colspan="3"><img src="/static/geomag-site/mm_spacer.gif" alt="" width="1" height="1" border="0" /></td>
+	</tr>
+
+	<tr bgcolor="#D3DCE6">
+	<td width="15" valign="top">&nbsp;</td>
+
+	<td width="100%" valign="top" align="center" ><br />
+	&nbsp;<br />
+	<table border="0" cellspacing="0" cellpadding="2" width="620">
+		<tr>
+		<td class="pageName">Моделирование электромагнитных параметров ионосферы</td>
+		</tr>
+
+		<tr>
+		<td class="bodyText">
+
+        <!--<form name="form1" action="javascript:absDataRequest('div1', 'sel_obs', 'form1');">-->
+		<!--<form name="form1" action="http://geomag.gcras.ru/intermagnet-webapp/program_name">-->
+		<form name="form1" action="/dataserv-ionomodel-ru/program_name" target = "_blank">
+
+<p>Данный программный модуль предназначен для ....</p>		
+<p>
+<strong>Data type:</strong>&nbsp;
+            <select id="type" name="type" class="bodyText">
+             <option value="fac">FAC</option>
+             <option value="pot">Potential</option>
+            </select>
+&nbsp;<strong>Hemisphere:</strong>&nbsp;
+            <select id="hem" name="hem" class="bodyText">
+             <option value="n">Northern</option>
+             <option value="s">Southern</option>
+            </select>
+		</p>
+  			
+			<table border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td>
+                	<table border="0" cellspacing="0" cellpadding="0">
+					  
+					  <tr><td class="bodyText">Bz:   </td><td><input type="text" name="bz"   value="1"   maxlength="3" size="3" class="detailText"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+						<td class="bodyText">F107: </td><td><input type="text" name="f107" value="100" maxlength="3" size="3" class="detailText" onclick="javascript:document.getElementById('sel_date').checked = true;" /></td></tr>
+						
+                      <tr><td class="bodyText">By:   </td><td><input type="text" name="by"   value="1"   maxlength="3" size="3" class="detailText" onclick="javascript:document.getElementById('sel_date').checked = true;" /></td>
+						<td class="bodyText">DOY:  </td><td><input type="text" name="doy"  value="1"   maxlength="3" size="3" class="detailText" onclick="javascript:document.getElementById('sel_date').checked = true;" /></td></tr>
+						
+					  <tr><td class="bodyText">Kp:   </td><td><input type="text" name="kp"   value="1"   maxlength="3" size="3" class="detailText" onclick="javascript:document.getElementById('sel_date').checked = true;" /></td>
+						<td class="bodyText">UT:   </td><td><input type="text" name="ut"   value="1"   maxlength="3" size="3" class="detailText" onclick="javascript:document.getElementById('sel_date').checked = true;" /></td></tr>
+                      
+                      
+                      
+                      
+                    </table>
+                </td>
+              </tr>
+              <tr>
+                <td class="bodyText">
+                	</br>
+					<table border="0" width="100%" cellpadding="0" cellspacing="0">
+                		<tr>
+                        	<td class="bodyText"><input type="radio" id="plot" value="plot" name="out" checked="checked" /></td>
+                            <td class="bodyText"><label for="plot">Plot data&nbsp;<a href = "#" onclick="window.open(this.href, 'newwindow','width=630, height=700,left=300,location=no,resizable=no, scrollbars=yes, toolbar=no'); return false;" target = "_blank"><img src="/static/geomag-site/qm16.gif" width="16" height="16" border="0" /></a>&nbsp;&nbsp;Image size (width x height):&nbsp;</label>
+                            					 <input type="text" name="img_w"  value="800" maxlength="4" size="4" class="detailText" onclick="javascript:document.getElementById('plot').checked = true;" />&nbsp;x
+                                                 <input type="text" name="img_h" value="600" maxlength="4" size="4" class="detailText" onclick="javascript:document.getElementById('plot').checked = true;" /></td>
+               			</tr>
+                		<tr><td class="bodyText">
+                            <input type="radio" id="ascii" value="ascii" name="out" /></td>
+                            <td class="bodyText"><label for="ascii">ASCII format (CSV)</label>&nbsp;<a href = "#" onclick="window.open(this.href, 'newwindow','width=630, height=700,left=300,location=no,resizable=no, scrollbars=yes, toolbar=no'); return false;" target = "_blank"><img src="/static/geomag-site/qm16.gif" width="16" height="16" border="0" /></a></td>
+                        </tr>
+                    </table>
+                </td>
+              </tr>
+
+              <tr>
+                  <td class="bodyText">
+               	  	<input type="submit" class="detailText" value="Запуск" />
+                </td>
+              </tr>
+            </table>
+            <em>By pressing the &quot;Submit&quot; button you accept the conditions of data use given in <a href="datapolicy.html" target="_blank">DATA POLICY</a> section.</em>
+
+        </form>
+        
+        <br />
+            <!--
+			<div id="div1">
+				<iframe id="iframe" height="400" width="608" src="http://geomag.gcras.ru/intermagnet-webapp/IntermagnetAbsAscii?station=SPG&amp;param=v10;v20;v30;f0;da;ia;fa;temp;&amp;lastMonth"></iframe>
+				<br id="br1"><br id="br2">
+				<a id="save_a"></a><input type="submit" value="Save to file" id="save" class="detailText">
+			</div>
+			-->
+
+		</td>
+		</tr>
+	</table>
+    
+	 <br />	
+  
+ 	&nbsp;<br />	</td>
+    
+	<td width="15">&nbsp;</td>
+	</tr>
+
+	<tr bgcolor="#D3DCE6">
+	<td colspan="3"><img src="/static/geomag-site/mm_spacer.gif" alt="" width="1" height="1" border="0" /></td>
+	</tr>
+
+	<tr>
+	
+<!--	<td width="50">&nbsp;</td>-->
+	<td width="100%" colspan="3" align="left" class="copyrightText">
+    	<table width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+        	<td width="50%" class="copyrightText">
+    			&nbsp;<br />
+            	ГЦ РАН&nbsp;&copy;&nbsp;2016<br />
+				Геофизический центр Российской академии наук<br />&nbsp;
+            </td><td width="50%" align="right" valign="middle">
+            	<a href="http://www.ras.ru/" title="Российская академия наук" target="_blank"><img src="/static/geomag-site/raslogowhite3.png" height="34" width="88" border="0" /></a>
+        	</td>
+        </tr></table>
+    </td>
+
+	</tr>
+</table>
+</td></tr></table>     <!-- CLOSE CENTERED TABLE  -->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter22299172 = new Ya.Metrika({id:22299172,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/22299172" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+</body>
+</html>

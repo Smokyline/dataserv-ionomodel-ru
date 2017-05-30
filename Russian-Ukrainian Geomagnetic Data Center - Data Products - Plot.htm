@@ -1,0 +1,372 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0041)http://geomag.gcras.ru/dataprod-plot.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- DW6 --><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link type="text/css" rel="stylesheet" href="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/css"><style type="text/css">.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px}</style><style type="text/css">@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}</style>
+<!-- Copyright 2005 Macromedia, Inc. All rights reserved. -->
+<title>Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot</title>
+<meta name="description" content="Interactive access to the Russian and Ukrainian magnetic observatory data. Automated system of data quality control.">
+<meta name="keywords" content="Geophysical Center RAS, geomagnetism, observatories, stations, data, magnetic, field, Earth">
+
+<link rel="stylesheet" href="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/geomag.css" type="text/css">
+<link rel="shortcut icon" type="image/gif" href="http://www.gcras.ru/gcicon.gif">
+<link rel="shortcut icon" type="image/x-icon" href="http://www.gcras.ru/favicon.ico">
+        <script type="text/javascript" async="" src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/watch.js"></script><script src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/js"></script>
+		<script src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/OpenLayers.js"></script>
+        <script src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/ol_mapsWithFeatures.js"></script>
+		<script src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/dynElements.js" type="text/javascript"></script>    
+
+<script src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/jquery-latest.min.js"></script>
+<script src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/stat.js" type="text/javascript"></script>		
+	
+<link rel="stylesheet" type="text/css" href="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/style.css"><script type="text/javascript" charset="UTF-8" src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/common.js"></script><script type="text/javascript" charset="UTF-8" src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/map.js"></script><style type="text/css">.gm-style {
+        font: 400 11px Roboto, Arial, sans-serif;
+        text-decoration: none;
+      }
+      .gm-style img { max-width: none; }</style><script type="text/javascript" charset="UTF-8" src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/util.js"></script><script type="text/javascript" charset="UTF-8" src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/onion.js"></script><script type="text/javascript" charset="UTF-8" src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/stats.js"></script><script type="text/javascript" charset="UTF-8" src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/controls.js"></script></head>
+<body onload="init()" bgcolor="#64748B">
+
+
+<table border="0" cellspacing="0" cellpadding="0" align="center"><tbody><tr align="center"><td align="center">
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tbody><tr bgcolor="#26354A">
+	<td width="15" nowrap="nowrap"><img src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/mm_spacer.gif" alt="" width="15" height="1" border="0"></td>
+		<td height="70" width="100%" class="logo" nowrap="nowrap">Geomagnetic Data Center <span class="tagline">| RUSSIA UKRAINE</span>&nbsp;&nbsp;<a href="http://www.gcras.ru/eng/" title="Geophysical Center RAS" target="_blank"><img src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/gcraslogo-small3.png" width="54" height="49" align="absmiddle" border="0"></a>&nbsp;<a href="http://www.igph.kiev.ua/" title="Subbotin Institute of Geophysics of the National Academy of Sciences of Ukraine" target="_blank"><img src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/igf_nanu_logo-small5.png" width="62" height="49" align="absmiddle" border="0"></a>&nbsp;<a href="http://www.intermagnet.org/" title="INTERMAGNET" target="_blank"><img src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/imag5.png" width="49" height="49" align="absmiddle" border="0"></a></td>
+        <td width="15" nowrap="nowrap"><img src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/mm_spacer.gif" alt="" width="15" height="1" border="0"></td>
+	</tr>
+
+	<tr bgcolor="#FF6600">
+	<td colspan="3"><img src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/mm_spacer.gif" alt="" width="1" height="4" border="0"></td>
+	</tr>
+
+	<tr bgcolor="#D3DCE6">
+	<td colspan="3"><img src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/mm_spacer.gif" alt="" width="1" height="1" border="0"></td>
+	</tr>
+
+	<tr bgcolor="#FFCC00">
+	<td width="15" nowrap="nowrap">&nbsp;</td>
+	<td width="100%" height="24">
+
+	  <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+		<tbody><tr>
+			<td width="100%" height="24">
+
+              <ul id="menu">
+               <li><a href="http://geomag.gcras.ru/index.html">HOME</a>
+               </li>
+               <li><a href="http://geomag.gcras.ru/dataprod.html" class="selected_nav_menu">DATA PRODUCTS</a>
+                <ul>
+                 <li><a href="http://geomag.gcras.ru/dataprod-down.html">Download</a></li>
+                 <li><a href="http://geomag.gcras.ru/dataprod-plot.html">Plot</a></li>
+                 <li><a href="http://geomag.gcras.ru/dataprod-plot.html#">Realtime</a></li>         
+                </ul>
+               </li>
+               <li><a href="http://geomag.gcras.ru/obs.html">OBSERVATORIES</a>
+			   <ul>
+    <li><a href="http://geomag.gcras.ru/obs-AIA.html">Akad. Vernadsky (AIA)</a></li>
+   <li><a href="http://geomag.gcras.ru/obs-ARS.html">Arti (ARS)</a></li>
+   <li><a href="http://geomag.gcras.ru/obs-POD.html">Bor (POD)</a></li> 
+    <li><a href="http://geomag.gcras.ru/obs-BOX.html">Borok (BOX)</a></li> 
+    <li><a href="http://geomag.gcras.ru/obs-CPS.html">Cape Schmidt (CPS)</a></li>
+    <li><a href="http://geomag.gcras.ru/obs-IRT.html">Irkutsk (IRT)</a></li>
+    <li><a href="http://geomag.gcras.ru/obs-KZN.html">Kazan (KZN)</a></li>
+    <li><a href="http://geomag.gcras.ru/obs-KHB.html">Khabarovsk (KHB)</a></li>
+    <li><a href="http://geomag.gcras.ru/obs-KIV.html">Kiev (KIV)</a></li>
+    <li><a href="http://geomag.gcras.ru/obs-KLI.html">Klimovskaya (KLI)</a></li> 
+    <li><a href="http://geomag.gcras.ru/obs-LVV.html">Lviv (LVV)</a></li>
+    <li><a href="http://geomag.gcras.ru/obs-MGD.html">Magadan (MGD)</a></li>
+    <li><a href="http://geomag.gcras.ru/obs-MOS.html">Moskva (MOS)</a></li>
+    <li><a href="http://geomag.gcras.ru/obs-NVS.html">Novosibirsk (NVS)</a></li>
+    <li><a href="http://geomag.gcras.ru/obs-ODE.html">Odessa (ODE)</a></li>
+	<li><a href="http://geomag.gcras.ru/obs-PET.html">Paratunka (PET)</a></li> 
+    <li><a href="http://geomag.gcras.ru/obs-SPG.html">Saint Petersburg (SPG)</a></li>
+    <li><a href="http://geomag.gcras.ru/obs-YAK.html">Yakutsk (YAK)</a></li> 
+        </ul>
+               </li>
+                <li><a href="http://geomag.gcras.ru/dataprod-plot.html#">DATA SERVICES</a>
+                <ul>
+				 <li><a href="http://geomag.gcras.ru/dataserv-gis.html">GIS Magnetic Services</a></li>
+				 <li><a href="http://geomag.gcras.ru/dataserv-extplot.html">Geomagnetic Activity</a></li>                
+                 <li><a href="http://geomag.gcras.ru/dataserv-desp.html">Despiking Data</a></li>
+                 <li><a href="http://geomag.gcras.ru/dataserv-abs.html">Absolute/Baseline Data</a></li>
+                 <li><a href="http://geomag.gcras.ru/dataserv-absforms.html">Absolute Forms (Restricted)</a></li>
+                </ul>
+               </li>
+               <li><a href="http://geomag.gcras.ru/dataprod-plot.html#">MATERIALS</a>
+                <ul>
+                 <li><a href="http://geomag.gcras.ru/materials-publ.html">Publications</a></li>
+                 <li><a href="http://geomag.gcras.ru/materials-man.html">User Manuals</a></li>
+                 <li><a href="http://geomag.gcras.ru/materials-graph.html">Fullsize Graphics</a></li>        
+                </ul>       
+               </li>
+               <li><a href="http://geomag.gcras.ru/contacts.html">CONTACT US</a>
+               </li>
+               <li><a href="http://geomag.gcras.ru/datapolicy.html">DATA POLICY</a>
+               </li>
+              </ul>	
+      
+			</td>     
+      
+			<td width="100%" height="24" align="right"><a href="http://geomag.gcras.ru/dataprod-plot-ru.html" title="Русский"><img src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/flag-ru.png" alt="[ru]" width="21" height="21" align="absmiddle" border="0"></a></td>      
+      
+     	</tr>
+      </tbody></table>       
+      
+	</td>
+	<td width="15" nowrap="nowrap">&nbsp;</td>
+
+	</tr>
+
+	<tr bgcolor="#D3DCE6">
+	<td colspan="3"><img src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/mm_spacer.gif" alt="" width="1" height="1" border="0"></td>
+	</tr>
+
+	<tr bgcolor="#FF6600">
+	<td colspan="3"><img src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/mm_spacer.gif" alt="" width="1" height="4" border="0"></td>
+	</tr>
+
+	<tr bgcolor="#D3DCE6">
+	<td colspan="3"><img src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/mm_spacer.gif" alt="" width="1" height="1" border="0"></td>
+	</tr>
+
+	<tr bgcolor="#D3DCE6">
+	<td width="15" valign="top">&nbsp;</td>
+
+	<td width="100%" valign="top" align="center"><br>
+	&nbsp;<br>
+	<table border="0" cellspacing="0" cellpadding="2" width="620">
+		<tbody><tr>
+		<td class="pageName">Data Plot</td>
+		</tr>
+
+		<tr>
+		<td class="bodyText">
+
+
+        <br><div id="map" class="map500 olMap"><div id="OpenLayers.Map_2_OpenLayers_ViewPort" class="olMapViewport olControlDragPanActive olControlZoomBoxActive olControlPinchZoomActive olControlNavigationActive olControlMousePositionActive olControlSelectFeatureActive" style="position: relative; overflow: hidden; width: 100%; height: 100%;"><div id="OpenLayers.Map_2_OpenLayers_Container" style="position: absolute; width: 100px; height: 100px; z-index: 749; left: 0px; top: 0px;"><div id="OpenLayers.Layer.Vector_26" dir="ltr" class="olLayerDiv" style="position: absolute; width: 100%; height: 100%; z-index: 330; left: 0px; top: 0px;"><svg id="OpenLayers.Layer.Vector_26_svgRoot" width="610" height="247" viewBox="0 0 610 247" style="display: block;"></svg></div><div id="OpenLayers.Layer.Vector.RootContainer_83" dir="ltr" class="olLayerDiv" style="position: absolute; width: 100%; height: 100%; z-index: 725; left: 0px; top: 0px;"><svg id="OpenLayers.Layer.Vector.RootContainer_83_svgRoot" width="610" height="247" viewBox="0 0 610 247" style="display: block;"><g id="OpenLayers.Layer.Vector.RootContainer_83_root" transform="translate(1024,0)" style="visibility: visible;"><g id="OpenLayers.Layer.Vector.RootContainer_83_vroot"></g><g id="OpenLayers.Layer.Vector.RootContainer_83_troot"></g></g><g id="OpenLayers.Layer.Vector_26_root" transform="translate(1024,0)" style="visibility: visible;"><g id="OpenLayers.Layer.Vector_26_vroot"><image id="OpenLayers.Geometry.Point_31" cx="-779.9564444444404" cy="151.93942991649243" r="1" x="-790" y="142" width="20" height="20" href="js/OpenLayers212/img/marker-green.png" style="opacity: 1" transform="rotate(0 -779.9564444444404 151.93942991649243)" fill="#ee9900" fill-opacity="0.4" stroke="#ee9900" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none" pointer-events="visiblePainted" cursor="inherit"></image><image id="OpenLayers.Geometry.Point_33" cx="-690.4702222222181" cy="123.43005234749515" r="1" x="-700" y="113" width="20" height="20" href="img/marker-tri-yellow-small.png" style="opacity: 1" transform="rotate(0 -690.4702222222181 123.43005234749515)" fill="#ee9900" fill-opacity="0.4" stroke="#ee9900" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none" pointer-events="visiblePainted" cursor="inherit"></image><image id="OpenLayers.Geometry.Point_35" cx="-837.8124444444404" cy="143.31458986114194" r="1" x="-848" y="133" width="20" height="20" href="js/OpenLayers212/img/marker-green.png" style="opacity: 1" transform="rotate(0 -837.8124444444404 143.31458986114194)" fill="#ee9900" fill-opacity="0.4" stroke="#ee9900" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none" pointer-events="visiblePainted" cursor="inherit"></image><image id="OpenLayers.Geometry.Point_37" cx="-432.7635555555514" cy="73.51715388685551" r="1" x="-443" y="64" width="20" height="20" href="img/marker-tri-yellow-small.png" style="opacity: 1" transform="rotate(0 -432.7635555555514 73.51715388685551)" fill="#ee9900" fill-opacity="0.4" stroke="#ee9900" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none" pointer-events="visiblePainted" cursor="inherit"></image><image id="OpenLayers.Geometry.Point_39" cx="-649.4248888888848" cy="172.7279600571632" r="1" x="-659" y="163" width="20" height="20" href="js/OpenLayers212/img/marker-green.png" style="opacity: 1" transform="rotate(0 -649.4248888888848 172.7279600571632)" fill="#ee9900" fill-opacity="0.4" stroke="#ee9900" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none" pointer-events="visiblePainted" cursor="inherit"></image><image id="OpenLayers.Geometry.Point_41" cx="-807.775111111107" cy="154.5962601338493" r="1" x="-818" y="145" width="20" height="20" href="img/marker-tri-yellow-small.png" style="opacity: 1" transform="rotate(0 -807.775111111107 154.5962601338493)" fill="#ee9900" fill-opacity="0.4" stroke="#ee9900" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none" pointer-events="visiblePainted" cursor="inherit"></image><image id="OpenLayers.Geometry.Point_43" cx="-860.3688888888847" cy="179.3461676828254" r="1" x="-870" y="169" width="20" height="20" href="js/OpenLayers212/img/marker-green.png" style="opacity: 1" transform="rotate(0 -860.3688888888847 179.3461676828254)" fill="#ee9900" fill-opacity="0.4" stroke="#ee9900" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none" pointer-events="visiblePainted" cursor="inherit"></image><image id="OpenLayers.Geometry.Point_45" cx="-834.1431111111069" cy="127.68410230275916" r="1" x="-844" y="118" width="20" height="20" href="img/marker-tri-blue-small.png" style="opacity: 1" transform="rotate(0 -834.1431111111069 127.68410230275916)" fill="#ee9900" fill-opacity="0.4" stroke="#ee9900" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none" pointer-events="visiblePainted" cursor="inherit"></image><image id="OpenLayers.Geometry.Point_47" cx="-563.4373333333292" cy="192.8810368089658" r="1" x="-573" y="183" width="20" height="20" href="js/OpenLayers212/img/marker-green.png" style="opacity: 1" transform="rotate(0 -563.4373333333292 192.8810368089658)" fill="#ee9900" fill-opacity="0.4" stroke="#ee9900" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none" pointer-events="visiblePainted" cursor="inherit"></image><image id="OpenLayers.Geometry.Point_49" cx="-879.0284444444404" cy="182.99853179391081" r="1" x="-889" y="173" width="20" height="20" href="js/OpenLayers212/img/marker-green.png" style="opacity: 1" transform="rotate(0 -879.0284444444404 182.99853179391081)" fill="#ee9900" fill-opacity="0.4" stroke="#ee9900" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none" pointer-events="visiblePainted" cursor="inherit"></image><image id="OpenLayers.Geometry.Point_51" cx="-517.8124444444404" cy="132.3567975139664" r="1" x="-528" y="122" width="20" height="20" href="js/OpenLayers212/img/marker-green.png" style="opacity: 1" transform="rotate(0 -517.8124444444404 132.3567975139664)" fill="#ee9900" fill-opacity="0.4" stroke="#ee9900" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none" pointer-events="visiblePainted" cursor="inherit"></image><image id="OpenLayers.Geometry.Point_53" cx="-840.4577777777736" cy="156.7664701345892" r="1" x="-850" y="147" width="20" height="20" href="img/marker-tri-yellow-small.png" style="opacity: 1" transform="rotate(0 -840.4577777777736 156.7664701345892)" fill="#ee9900" fill-opacity="0.4" stroke="#ee9900" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none" pointer-events="visiblePainted" cursor="inherit"></image><image id="OpenLayers.Geometry.Point_55" cx="-709.7839999999959" cy="159.9037233247199" r="1" x="-720" y="150" width="20" height="20" href="js/OpenLayers212/img/marker-green.png" style="opacity: 1" transform="rotate(0 -709.7839999999959 159.9037233247199)" fill="#ee9900" fill-opacity="0.4" stroke="#ee9900" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none" pointer-events="visiblePainted" cursor="inherit"></image><image id="OpenLayers.Geometry.Point_57" cx="-858.7191111111069" cy="196.35556093168594" r="1" x="-869" y="186" width="20" height="20" href="img/marker-tri-yellow-small.png" style="opacity: 1" transform="rotate(0 -858.7191111111069 196.35556093168594)" fill="#ee9900" fill-opacity="0.4" stroke="#ee9900" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none" pointer-events="visiblePainted" cursor="inherit"></image><image id="OpenLayers.Geometry.Point_59" cx="-496.4222222222181" cy="168.98385313417282" r="1" x="-506" y="159" width="20" height="20" href="js/OpenLayers212/img/marker-green.png" style="opacity: 1" transform="rotate(0 -496.4222222222181 168.98385313417282)" fill="#ee9900" fill-opacity="0.4" stroke="#ee9900" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none" pointer-events="visiblePainted" cursor="inherit"></image><image id="OpenLayers.Geometry.Point_61" cx="-862.0186666666625" cy="129.544060532484" r="1" x="-872" y="120" width="20" height="20" href="js/OpenLayers212/img/marker-green.png" style="opacity: 1" transform="rotate(0 -862.0186666666625 129.544060532484)" fill="#ee9900" fill-opacity="0.4" stroke="#ee9900" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none" pointer-events="visiblePainted" cursor="inherit"></image><image id="OpenLayers.Geometry.Point_63" cx="-577.7448888888847" cy="121.14490043801291" r="1" x="-588" y="111" width="20" height="20" href="js/OpenLayers212/img/marker-green.png" style="opacity: 1" transform="rotate(0 -577.7448888888847 121.14490043801291)" fill="#ee9900" fill-opacity="0.4" stroke="#ee9900" stroke-opacity="1" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="none" pointer-events="visiblePainted" cursor="inherit"></image></g><g id="OpenLayers.Layer.Vector_26_troot"><text id="ARS_label" x="-779.9564444444404" y="149.93942991649243" fill="white" stroke="white" stroke-width="2" font-family="Courier New, monospace" font-size="10px" pointer-events="none" text-anchor="middle"><tspan id="ARS_label_tspan_0" baseline-shift="-35%" x="-779.9564444444404" dy="-1em">ARS</tspan><tspan id="ARS_label_tspan_1" baseline-shift="-35%" x="-779.9564444444404" dy="1em"> </tspan><tspan id="ARS_label_tspan_2" baseline-shift="-35%" x="-779.9564444444404" dy="1em"> </tspan></text><text id="ARS_outline" x="-779.9564444444404" y="149.93942991649243" fill="black" font-family="Courier New, monospace" font-size="10px" pointer-events="none" text-anchor="middle"><tspan id="ARS_outline_tspan_0" baseline-shift="-35%" x="-779.9564444444404" dy="-1em">ARS</tspan><tspan id="ARS_outline_tspan_1" baseline-shift="-35%" x="-779.9564444444404" dy="1em"> </tspan><tspan id="ARS_outline_tspan_2" baseline-shift="-35%" x="-779.9564444444404" dy="1em"> </tspan></text><text id="POD_label" x="-690.4702222222181" y="121.43005234749512" fill="white" stroke="white" stroke-width="2" font-family="Courier New, monospace" font-size="10px" pointer-events="none" text-anchor="middle"><tspan id="POD_label_tspan_0" baseline-shift="-35%" x="-690.4702222222181" dy="-1em">POD</tspan><tspan id="POD_label_tspan_1" baseline-shift="-35%" x="-690.4702222222181" dy="1em"> </tspan><tspan id="POD_label_tspan_2" baseline-shift="-35%" x="-690.4702222222181" dy="1em"> </tspan></text><text id="POD_outline" x="-690.4702222222181" y="121.43005234749512" fill="black" font-family="Courier New, monospace" font-size="10px" pointer-events="none" text-anchor="middle"><tspan id="POD_outline_tspan_0" baseline-shift="-35%" x="-690.4702222222181" dy="-1em">POD</tspan><tspan id="POD_outline_tspan_1" baseline-shift="-35%" x="-690.4702222222181" dy="1em"> </tspan><tspan id="POD_outline_tspan_2" baseline-shift="-35%" x="-690.4702222222181" dy="1em"> </tspan></text><text id="BOX_label" x="-837.8124444444404" y="141.31458986114194" fill="white" stroke="white" stroke-width="2" font-family="Courier New, monospace" font-size="10px" pointer-events="none" text-anchor="middle"><tspan id="BOX_label_tspan_0" baseline-shift="-35%" x="-837.8124444444404" dy="-1em">BOX</tspan><tspan id="BOX_label_tspan_1" baseline-shift="-35%" x="-837.8124444444404" dy="1em"> </tspan><tspan id="BOX_label_tspan_2" baseline-shift="-35%" x="-837.8124444444404" dy="1em"> </tspan></text><text id="BOX_outline" x="-837.8124444444404" y="141.31458986114194" fill="black" font-family="Courier New, monospace" font-size="10px" pointer-events="none" text-anchor="middle"><tspan id="BOX_outline_tspan_0" baseline-shift="-35%" x="-837.8124444444404" dy="-1em">BOX</tspan><tspan id="BOX_outline_tspan_1" baseline-shift="-35%" x="-837.8124444444404" dy="1em"> </tspan><tspan id="BOX_outline_tspan_2" baseline-shift="-35%" x="-837.8124444444404" dy="1em"> </tspan></text><text id="CPS_label" x="-432.7635555555514" y="71.51715388685551" fill="white" stroke="white" stroke-width="2" font-family="Courier New, monospace" font-size="10px" pointer-events="none" text-anchor="middle"><tspan id="CPS_label_tspan_0" baseline-shift="-35%" x="-432.7635555555514" dy="-1em">CPS</tspan><tspan id="CPS_label_tspan_1" baseline-shift="-35%" x="-432.7635555555514" dy="1em"> </tspan><tspan id="CPS_label_tspan_2" baseline-shift="-35%" x="-432.7635555555514" dy="1em"> </tspan></text><text id="CPS_outline" x="-432.7635555555514" y="71.51715388685551" fill="black" font-family="Courier New, monospace" font-size="10px" pointer-events="none" text-anchor="middle"><tspan id="CPS_outline_tspan_0" baseline-shift="-35%" x="-432.7635555555514" dy="-1em">CPS</tspan><tspan id="CPS_outline_tspan_1" baseline-shift="-35%" x="-432.7635555555514" dy="1em"> </tspan><tspan id="CPS_outline_tspan_2" baseline-shift="-35%" x="-432.7635555555514" dy="1em"> </tspan></text><text id="IRT_label" x="-649.4248888888848" y="170.7279600571632" fill="white" stroke="white" stroke-width="2" font-family="Courier New, monospace" font-size="10px" pointer-events="none" text-anchor="middle"><tspan id="IRT_label_tspan_0" baseline-shift="-35%" x="-649.4248888888848" dy="-1em">IRT</tspan><tspan id="IRT_label_tspan_1" baseline-shift="-35%" x="-649.4248888888848" dy="1em"> </tspan><tspan id="IRT_label_tspan_2" baseline-shift="-35%" x="-649.4248888888848" dy="1em"> </tspan></text><text id="IRT_outline" x="-649.4248888888848" y="170.7279600571632" fill="black" font-family="Courier New, monospace" font-size="10px" pointer-events="none" text-anchor="middle"><tspan id="IRT_outline_tspan_0" baseline-shift="-35%" x="-649.4248888888848" dy="-1em">IRT</tspan><tspan id="IRT_outline_tspan_1" baseline-shift="-35%" x="-649.4248888888848" dy="1em"> </tspan><tspan id="IRT_outline_tspan_2" baseline-shift="-35%" x="-649.4248888888848" dy="1em"> </tspan></text><text id="KZN_label" x="-807.775111111107" y="152.5962601338493" fill="white" stroke="white" stroke-width="2" font-family="Courier New, monospace" font-size="10px" pointer-events="none" text-anchor="middle"><tspan id="KZN_label_tspan_0" baseline-shift="-35%" x="-807.775111111107" dy="-1em">KZN</tspan><tspan id="KZN_label_tspan_1" baseline-shift="-35%" x="-807.775111111107" dy="1em"> </tspan><tspan id="KZN_label_tspan_2" baseline-shift="-35%" x="-807.775111111107" dy="1em"> </tspan></text><text id="KZN_outline" x="-807.775111111107" y="152.5962601338493" fill="black" font-family="Courier New, monospace" font-size="10px" pointer-events="none" text-anchor="middle"><tspan id="KZN_outline_tspan_0" baseline-shift="-35%" x="-807.775111111107" dy="-1em">KZN</tspan><tspan id="KZN_outline_tspan_1" baseline-shift="-35%" x="-807.775111111107" dy="1em"> </tspan><tspan id="KZN_outline_tspan_2" baseline-shift="-35%" x="-807.775111111107" dy="1em"> </tspan></text><text id="KIV_label" x="-860.3688888888847" y="177.34616768282544" fill="white" stroke="white" stroke-width="2" font-family="Courier New, monospace" font-size="10px" pointer-events="none" text-anchor="middle"><tspan id="KIV_label_tspan_0" baseline-shift="-35%" x="-860.3688888888847" dy="-1em">KIV</tspan><tspan id="KIV_label_tspan_1" baseline-shift="-35%" x="-860.3688888888847" dy="1em"> </tspan><tspan id="KIV_label_tspan_2" baseline-shift="-35%" x="-860.3688888888847" dy="1em"> </tspan></text><text id="KIV_outline" x="-860.3688888888847" y="177.34616768282544" fill="black" font-family="Courier New, monospace" font-size="10px" pointer-events="none" text-anchor="middle"><tspan id="KIV_outline_tspan_0" baseline-shift="-35%" x="-860.3688888888847" dy="-1em">KIV</tspan><tspan id="KIV_outline_tspan_1" baseline-shift="-35%" x="-860.3688888888847" dy="1em"> </tspan><tspan id="KIV_outline_tspan_2" baseline-shift="-35%" x="-860.3688888888847" dy="1em"> </tspan></text><text id="KLI_label" x="-834.1431111111069" y="125.68410230275916" fill="white" stroke="white" stroke-width="2" font-family="Courier New, monospace" font-size="10px" pointer-events="none" text-anchor="middle"><tspan id="KLI_label_tspan_0" baseline-shift="-35%" x="-834.1431111111069" dy="-1em">KLI</tspan><tspan id="KLI_label_tspan_1" baseline-shift="-35%" x="-834.1431111111069" dy="1em"> </tspan><tspan id="KLI_label_tspan_2" baseline-shift="-35%" x="-834.1431111111069" dy="1em"> </tspan></text><text id="KLI_outline" x="-834.1431111111069" y="125.68410230275916" fill="blue" font-family="Courier New, monospace" font-size="10px" pointer-events="none" text-anchor="middle"><tspan id="KLI_outline_tspan_0" baseline-shift="-35%" x="-834.1431111111069" dy="-1em">KLI</tspan><tspan id="KLI_outline_tspan_1" baseline-shift="-35%" x="-834.1431111111069" dy="1em"> </tspan><tspan id="KLI_outline_tspan_2" baseline-shift="-35%" x="-834.1431111111069" dy="1em"> </tspan></text><text id="KHB_label" x="-563.4373333333292" y="190.8810368089658" fill="white" stroke="white" stroke-width="2" font-family="Courier New, monospace" font-size="10px" pointer-events="none" text-anchor="middle"><tspan id="KHB_label_tspan_0" baseline-shift="-35%" x="-563.4373333333292" dy="-1em">KHB</tspan><tspan id="KHB_label_tspan_1" baseline-shift="-35%" x="-563.4373333333292" dy="1em"> </tspan><tspan id="KHB_label_tspan_2" baseline-shift="-35%" x="-563.4373333333292" dy="1em"> </tspan></text><text id="KHB_outline" x="-563.4373333333292" y="190.8810368089658" fill="black" font-family="Courier New, monospace" font-size="10px" pointer-events="none" text-anchor="middle"><tspan id="KHB_outline_tspan_0" baseline-shift="-35%" x="-563.4373333333292" dy="-1em">KHB</tspan><tspan id="KHB_outline_tspan_1" baseline-shift="-35%" x="-563.4373333333292" dy="1em"> </tspan><tspan id="KHB_outline_tspan_2" baseline-shift="-35%" x="-563.4373333333292" dy="1em"> </tspan></text><text id="LVV_label" x="-879.0284444444404" y="180.99853179391081" fill="white" stroke="white" stroke-width="2" font-family="Courier New, monospace" font-size="10px" pointer-events="none" text-anchor="middle"><tspan id="LVV_label_tspan_0" baseline-shift="-35%" x="-879.0284444444404" dy="-1em">LVV</tspan><tspan id="LVV_label_tspan_1" baseline-shift="-35%" x="-879.0284444444404" dy="1em"> </tspan><tspan id="LVV_label_tspan_2" baseline-shift="-35%" x="-879.0284444444404" dy="1em"> </tspan></text><text id="LVV_outline" x="-879.0284444444404" y="180.99853179391081" fill="black" font-family="Courier New, monospace" font-size="10px" pointer-events="none" text-anchor="middle"><tspan id="LVV_outline_tspan_0" baseline-shift="-35%" x="-879.0284444444404" dy="-1em">LVV</tspan><tspan id="LVV_outline_tspan_1" baseline-shift="-35%" x="-879.0284444444404" dy="1em"> </tspan><tspan id="LVV_outline_tspan_2" baseline-shift="-35%" x="-879.0284444444404" dy="1em"> </tspan></text><text id="MGD_label" x="-517.8124444444404" y="130.35679751396637" fill="white" stroke="white" stroke-width="2" font-family="Courier New, monospace" font-size="10px" pointer-events="none" text-anchor="middle"><tspan id="MGD_label_tspan_0" baseline-shift="-35%" x="-517.8124444444404" dy="-1em">MGD</tspan><tspan id="MGD_label_tspan_1" baseline-shift="-35%" x="-517.8124444444404" dy="1em"> </tspan><tspan id="MGD_label_tspan_2" baseline-shift="-35%" x="-517.8124444444404" dy="1em"> </tspan></text><text id="MGD_outline" x="-517.8124444444404" y="130.35679751396637" fill="black" font-family="Courier New, monospace" font-size="10px" pointer-events="none" text-anchor="middle"><tspan id="MGD_outline_tspan_0" baseline-shift="-35%" x="-517.8124444444404" dy="-1em">MGD</tspan><tspan id="MGD_outline_tspan_1" baseline-shift="-35%" x="-517.8124444444404" dy="1em"> </tspan><tspan id="MGD_outline_tspan_2" baseline-shift="-35%" x="-517.8124444444404" dy="1em"> </tspan></text><text id="MOS_label" x="-840.4577777777736" y="154.76647013458924" fill="white" stroke="white" stroke-width="2" font-family="Courier New, monospace" font-size="10px" pointer-events="none" text-anchor="middle"><tspan id="MOS_label_tspan_0" baseline-shift="-35%" x="-840.4577777777736" dy="-1em">MOS</tspan><tspan id="MOS_label_tspan_1" baseline-shift="-35%" x="-840.4577777777736" dy="1em"> </tspan><tspan id="MOS_label_tspan_2" baseline-shift="-35%" x="-840.4577777777736" dy="1em"> </tspan></text><text id="MOS_outline" x="-840.4577777777736" y="154.76647013458924" fill="black" font-family="Courier New, monospace" font-size="10px" pointer-events="none" text-anchor="middle"><tspan id="MOS_outline_tspan_0" baseline-shift="-35%" x="-840.4577777777736" dy="-1em">MOS</tspan><tspan id="MOS_outline_tspan_1" baseline-shift="-35%" x="-840.4577777777736" dy="1em"> </tspan><tspan id="MOS_outline_tspan_2" baseline-shift="-35%" x="-840.4577777777736" dy="1em"> </tspan></text><text id="NVS_label" x="-709.7839999999959" y="157.9037233247199" fill="white" stroke="white" stroke-width="2" font-family="Courier New, monospace" font-size="10px" pointer-events="none" text-anchor="middle"><tspan id="NVS_label_tspan_0" baseline-shift="-35%" x="-709.7839999999959" dy="-1em">NVS</tspan><tspan id="NVS_label_tspan_1" baseline-shift="-35%" x="-709.7839999999959" dy="1em"> </tspan><tspan id="NVS_label_tspan_2" baseline-shift="-35%" x="-709.7839999999959" dy="1em"> </tspan></text><text id="NVS_outline" x="-709.7839999999959" y="157.9037233247199" fill="black" font-family="Courier New, monospace" font-size="10px" pointer-events="none" text-anchor="middle"><tspan id="NVS_outline_tspan_0" baseline-shift="-35%" x="-709.7839999999959" dy="-1em">NVS</tspan><tspan id="NVS_outline_tspan_1" baseline-shift="-35%" x="-709.7839999999959" dy="1em"> </tspan><tspan id="NVS_outline_tspan_2" baseline-shift="-35%" x="-709.7839999999959" dy="1em"> </tspan></text><text id="ODE_label" x="-858.7191111111069" y="194.35556093168594" fill="white" stroke="white" stroke-width="2" font-family="Courier New, monospace" font-size="10px" pointer-events="none" text-anchor="middle"><tspan id="ODE_label_tspan_0" baseline-shift="-35%" x="-858.7191111111069" dy="-1em">ODE</tspan><tspan id="ODE_label_tspan_1" baseline-shift="-35%" x="-858.7191111111069" dy="1em"> </tspan><tspan id="ODE_label_tspan_2" baseline-shift="-35%" x="-858.7191111111069" dy="1em"> </tspan></text><text id="ODE_outline" x="-858.7191111111069" y="194.35556093168594" fill="black" font-family="Courier New, monospace" font-size="10px" pointer-events="none" text-anchor="middle"><tspan id="ODE_outline_tspan_0" baseline-shift="-35%" x="-858.7191111111069" dy="-1em">ODE</tspan><tspan id="ODE_outline_tspan_1" baseline-shift="-35%" x="-858.7191111111069" dy="1em"> </tspan><tspan id="ODE_outline_tspan_2" baseline-shift="-35%" x="-858.7191111111069" dy="1em"> </tspan></text><text id="PET_label" x="-496.4222222222181" y="166.98385313417282" fill="white" stroke="white" stroke-width="2" font-family="Courier New, monospace" font-size="10px" pointer-events="none" text-anchor="middle"><tspan id="PET_label_tspan_0" baseline-shift="-35%" x="-496.4222222222181" dy="-1em">PET</tspan><tspan id="PET_label_tspan_1" baseline-shift="-35%" x="-496.4222222222181" dy="1em"> </tspan><tspan id="PET_label_tspan_2" baseline-shift="-35%" x="-496.4222222222181" dy="1em"> </tspan></text><text id="PET_outline" x="-496.4222222222181" y="166.98385313417282" fill="black" font-family="Courier New, monospace" font-size="10px" pointer-events="none" text-anchor="middle"><tspan id="PET_outline_tspan_0" baseline-shift="-35%" x="-496.4222222222181" dy="-1em">PET</tspan><tspan id="PET_outline_tspan_1" baseline-shift="-35%" x="-496.4222222222181" dy="1em"> </tspan><tspan id="PET_outline_tspan_2" baseline-shift="-35%" x="-496.4222222222181" dy="1em"> </tspan></text><text id="SPG_label" x="-862.0186666666625" y="127.544060532484" fill="white" stroke="white" stroke-width="2" font-family="Courier New, monospace" font-size="10px" pointer-events="none" text-anchor="middle"><tspan id="SPG_label_tspan_0" baseline-shift="-35%" x="-862.0186666666625" dy="-1em">SPG</tspan><tspan id="SPG_label_tspan_1" baseline-shift="-35%" x="-862.0186666666625" dy="1em"> </tspan><tspan id="SPG_label_tspan_2" baseline-shift="-35%" x="-862.0186666666625" dy="1em"> </tspan></text><text id="SPG_outline" x="-862.0186666666625" y="127.544060532484" fill="black" font-family="Courier New, monospace" font-size="10px" pointer-events="none" text-anchor="middle"><tspan id="SPG_outline_tspan_0" baseline-shift="-35%" x="-862.0186666666625" dy="-1em">SPG</tspan><tspan id="SPG_outline_tspan_1" baseline-shift="-35%" x="-862.0186666666625" dy="1em"> </tspan><tspan id="SPG_outline_tspan_2" baseline-shift="-35%" x="-862.0186666666625" dy="1em"> </tspan></text><text id="YAK_label" x="-577.7448888888847" y="119.14490043801291" fill="white" stroke="white" stroke-width="2" font-family="Courier New, monospace" font-size="10px" pointer-events="none" text-anchor="middle"><tspan id="YAK_label_tspan_0" baseline-shift="-35%" x="-577.7448888888847" dy="-1em">YAK</tspan><tspan id="YAK_label_tspan_1" baseline-shift="-35%" x="-577.7448888888847" dy="1em"> </tspan><tspan id="YAK_label_tspan_2" baseline-shift="-35%" x="-577.7448888888847" dy="1em"> </tspan></text><text id="YAK_outline" x="-577.7448888888847" y="119.14490043801291" fill="black" font-family="Courier New, monospace" font-size="10px" pointer-events="none" text-anchor="middle"><tspan id="YAK_outline_tspan_0" baseline-shift="-35%" x="-577.7448888888847" dy="-1em">YAK</tspan><tspan id="YAK_outline_tspan_1" baseline-shift="-35%" x="-577.7448888888847" dy="1em"> </tspan><tspan id="YAK_outline_tspan_2" baseline-shift="-35%" x="-577.7448888888847" dy="1em"> </tspan></text></g></g></svg></div></div><div id="OpenLayers.Control.Zoom_5" class="olControlZoom olControlNoSelect" unselectable="on" style="position: absolute; z-index: 1004;"><a href="http://geomag.gcras.ru/dataprod-plot.html#zoomIn" class="olControlZoomIn olButton">+</a><a href="http://geomag.gcras.ru/dataprod-plot.html#zoomOut" class="olControlZoomOut olButton">-</a></div><div id="OpenLayers.Control.ArgParser_6" class="olControlArgParser olControlNoSelect" unselectable="on" style="position: absolute; z-index: 1004;"></div><div id="OpenLayers.Control.Attribution_7" class="olControlAttribution olControlNoSelect" unselectable="on" style="position: absolute; z-index: 1004;"></div><div id="OpenLayers.Layer.Google_18" dir="ltr" class="olLayerDiv" style="position: absolute; width: 100%; height: 100%; z-index: 325;"></div><div id="OpenLayers.Layer.Google_18_EventPane" style="position: absolute; z-index: 326; width: 100%; height: 100%;"></div><div id="OpenLayers.Map_2_GMapContainer" style="position: absolute; width: 100%; height: 100%; overflow: hidden;"><div style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);"><div class="gm-style" style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px;"><div style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px;"><div style="z-index: 1; position: absolute; top: 0px; left: 0px; width: 100%; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 0, 0);"><div style="position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;"><div style="width: 256px; height: 256px; position: absolute; left: 77px; top: -165px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 77px; top: 91px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 333px; top: -165px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 333px; top: 91px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -179px; top: -165px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -179px; top: 91px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 589px; top: -165px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 589px; top: 91px;"></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 103; width: 100%;"></div><div style="position: absolute; z-index: 0; left: 0px; top: 0px;"><div style="overflow: hidden; width: 610px; height: 247px;"><img src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/StaticMapService.GetMapImage" style="width: 610px; height: 247px;"></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div aria-hidden="true" style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;"><div style="position: absolute; left: 77px; top: -165px; transition: opacity 200ms ease-out;"><img src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/vt" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 333px; top: -165px; transition: opacity 200ms ease-out;"><img src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/vt(1)" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 77px; top: 91px; transition: opacity 200ms ease-out;"><img src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/vt(2)" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -179px; top: 91px; transition: opacity 200ms ease-out;"><img src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/vt(3)" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 333px; top: 91px; transition: opacity 200ms ease-out;"><img src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/vt(4)" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -179px; top: -165px; transition: opacity 200ms ease-out;"><img src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/vt(5)" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 589px; top: -165px; transition: opacity 200ms ease-out;"><img src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/vt(6)" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 589px; top: 91px; transition: opacity 200ms ease-out;"><img src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/vt(7)" draggable="false" alt="" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div></div></div><div style="z-index: 2; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px;"></div><div style="z-index: 3; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px;"><div style="z-index: 1; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px;"></div></div><div style="z-index: 4; position: absolute; top: 0px; left: 0px; width: 100%; transform-origin: 0px 0px 0px; transform: matrix(1, 0, 0, 1, 0, 0);"><div style="position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;"></div></div><iframe frameborder="0" style="z-index: -1; border: 0px none; position: absolute; height: 100%; width: 100%; padding: 0px; margin: 0px; left: 0px; top: 0px;" src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/saved_resource.html"></iframe></div><div style="margin-left: 5px; margin-right: 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;"><a target="_blank" href="https://maps.google.com/maps?ll=61.568294,80&amp;z=2&amp;t=p&amp;hl=en-US&amp;gl=US&amp;mapclient=apiv3" title="Click to see this area on Google Maps" style="position: static; overflow: visible; float: none; display: inline;"><div style="width: 66px; height: 26px; cursor: pointer;"><img src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/google4.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 66px; height: 26px; user-select: none; border: 0px; padding: 0px; margin: 0px;"></div></a></div><div style="background-color: white; padding: 15px 21px; border: 1px solid rgb(171, 171, 171); font-family: Roboto, Arial, sans-serif; color: rgb(34, 34, 34); box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 16px; z-index: 10000002; display: none; width: 256px; height: 148px; position: absolute; left: 155px; top: 34px;"><div style="padding: 0px 0px 10px; font-size: 16px;">Map Data</div><div style="font-size: 13px;">Map data ©2017</div><div style="width: 13px; height: 13px; overflow: hidden; position: absolute; opacity: 0.7; right: 12px; top: 12px; z-index: 10000; cursor: pointer;"><img src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/mapcnt6.png" draggable="false" style="position: absolute; left: -2px; top: -336px; width: 59px; height: 492px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div><div class="gmnoprint" style="z-index: 1000001; position: absolute; right: 85px; bottom: 0px; width: 102px;"><div draggable="false" class="gm-style-cc" style="user-select: none; height: 14px; line-height: 14px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a style="color: rgb(68, 68, 68); text-decoration: none; cursor: pointer; display: none;">Map Data</a><span>Map data ©2017</span></div></div></div><div class="gmnoscreen" style="position: absolute; right: 0px; bottom: 0px;"><div style="font-family: Roboto, Arial, sans-serif; font-size: 11px; color: rgb(68, 68, 68); direction: ltr; text-align: right; background-color: rgb(245, 245, 245);">Map data ©2017</div></div><div class="gmnoprint gm-style-cc" draggable="false" style="z-index: 1000001; user-select: none; height: 14px; line-height: 14px; position: absolute; right: 0px; bottom: 0px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a href="https://www.google.com/intl/en-US_US/help/terms_maps.html" target="_blank" style="text-decoration: none; cursor: pointer; color: rgb(68, 68, 68);">Terms of Use</a></div></div><div style="cursor: pointer; width: 25px; height: 25px; overflow: hidden; display: none; margin: 10px 14px; position: absolute; top: 0px; right: 0px;"><img src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/sv9.png" draggable="false" class="gm-fullscreen-control" style="position: absolute; left: -52px; top: -86px; width: 164px; height: 175px; user-select: none; border: 0px; padding: 0px; margin: 0px;"></div><div draggable="false" class="gm-style-cc" style="user-select: none; height: 14px; line-height: 14px; display: none; position: absolute; right: 0px; bottom: 0px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a target="_new" title="Report errors in the road map or imagery to Google" href="https://www.google.com/maps/@61.5682942,80,2z/data=!5m1!1e4!10m1!1e1!12b1?source=apiv3&amp;rapsrc=apiv3" style="font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); text-decoration: none; position: relative;">Report a map error</a></div></div></div></div></div><div id="OpenLayers.Control.MousePosition_28" class="olControlMousePosition olControlNoSelect" unselectable="on" style="position: absolute; z-index: 1005;">9375188.36394, 4472130.19580</div><div id="OpenLayers.Control.SelectFeature_82" class="olControlSelectFeature olControlNoSelect" unselectable="on" style="position: absolute; z-index: 1006;"></div></div></div>
+<div align="center"><img src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/marker-green-real.png" align="absmiddle"> - INTERMAGNET observatories&nbsp;&nbsp;<img src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/marker-tri-yellow-small-real.png" align="absmiddle"> - observatories under construction</div>        
+<div id="status">Please select observatory/station.</div><br>
+               
+        <form name="form1" action="javascript:showPlot(&#39;sel_obs&#39;, &#39;form1&#39;);">
+
+			<p><strong>Selected observatory/station:</strong>&nbsp;              
+            
+            <select id="sel_obs" class="detailText" onchange="this.options[this.selectedIndex].onclick()">
+              <option onclick="javascript:selectControl.unselectAll();"></option>22299172
+              <option value="AIA" onclick="javascript:selectControl.unselectAll();selectControl.select(map.getLayer(&#39;vectors1&#39;).getFeatureById(&#39;AIA&#39;)); yaCounter22299172.reachGoal(&#39;AIA&#39;); return true;">AIA</option>
+              <option value="ARS" onclick="javascript:selectControl.unselectAll();selectControl.select(map.getLayer(&#39;vectors1&#39;).getFeatureById(&#39;ARS&#39;)); yaCounter22299172.reachGoal(&#39;ARS&#39;); return true;">ARS</option>
+              <option value="BOX" onclick="javascript:selectControl.unselectAll();selectControl.select(map.getLayer(&#39;vectors1&#39;).getFeatureById(&#39;BOX&#39;)); yaCounter22299172.reachGoal(&#39;BOX&#39;); return true;">BOX</option>              
+              <option value="CPS" onclick="javascript:selectControl.unselectAll();selectControl.select(map.getLayer(&#39;vectors1&#39;).getFeatureById(&#39;CPS&#39;)); yaCounter22299172.reachGoal(&#39;CPS&#39;); return true;">CPS</option>              
+              <option value="IRT" onclick="javascript:selectControl.unselectAll();selectControl.select(map.getLayer(&#39;vectors1&#39;).getFeatureById(&#39;IRT&#39;)); yaCounter22299172.reachGoal(&#39;IRT&#39;); return true;">IRT</option>
+              <option value="KHB" onclick="javascript:selectControl.unselectAll();selectControl.select(map.getLayer(&#39;vectors1&#39;).getFeatureById(&#39;KHB&#39;)); yaCounter22299172.reachGoal(&#39;KHB&#39;); return true;">KHB</option>              
+              <option value="KIV" onclick="javascript:selectControl.unselectAll();selectControl.select(map.getLayer(&#39;vectors1&#39;).getFeatureById(&#39;KIV&#39;)); yaCounter22299172.reachGoal(&#39;KIV&#39;); return true;">KIV</option>
+              <option value="KLI" onclick="javascript:selectControl.unselectAll();selectControl.select(map.getLayer(&#39;vectors1&#39;).getFeatureById(&#39;KLI&#39;)); yaCounter22299172.reachGoal(&#39;KLI&#39;); return true;">KLI</option>
+			  <option value="KZN" onclick="javascript:selectControl.unselectAll();selectControl.select(map.getLayer(&#39;vectors1&#39;).getFeatureById(&#39;KZN&#39;)); yaCounter22299172.reachGoal(&#39;KZN&#39;); return true;">KZN</option>
+              <option value="LVV" onclick="javascript:selectControl.unselectAll();selectControl.select(map.getLayer(&#39;vectors1&#39;).getFeatureById(&#39;LVV&#39;)); yaCounter22299172.reachGoal(&#39;LVV&#39;); return true;">LVV</option>
+              <option value="MGD" onclick="javascript:selectControl.unselectAll();selectControl.select(map.getLayer(&#39;vectors1&#39;).getFeatureById(&#39;MGD&#39;)); yaCounter22299172.reachGoal(&#39;MGD&#39;); return true;">MGD</option>
+              <option value="MOS" onclick="javascript:selectControl.unselectAll();selectControl.select(map.getLayer(&#39;vectors1&#39;).getFeatureById(&#39;MOS&#39;)); yaCounter22299172.reachGoal(&#39;MOS&#39;); return true;">MOS</option>
+              <option value="NVS" onclick="javascript:selectControl.unselectAll();selectControl.select(map.getLayer(&#39;vectors1&#39;).getFeatureById(&#39;NVS&#39;)); yaCounter22299172.reachGoal(&#39;NVS&#39;); return true;">NVS</option>
+              <option value="ODE" onclick="javascript:selectControl.unselectAll();selectControl.select(map.getLayer(&#39;vectors1&#39;).getFeatureById(&#39;ODE&#39;)); yaCounter22299172.reachGoal(&#39;ODE&#39;); return true;">ODE</option>
+              <option value="PET" onclick="javascript:selectControl.unselectAll();selectControl.select(map.getLayer(&#39;vectors1&#39;).getFeatureById(&#39;PET&#39;)); yaCounter22299172.reachGoal(&#39;PET&#39;); return true;">PET</option>              
+              <option value="POD" onclick="javascript:selectControl.unselectAll();selectControl.select(map.getLayer(&#39;vectors1&#39;).getFeatureById(&#39;POD&#39;)); yaCounter22299172.reachGoal(&#39;POD&#39;); return true;">POD</option>              
+              <option value="SPG" onclick="javascript:selectControl.unselectAll();selectControl.select(map.getLayer(&#39;vectors1&#39;).getFeatureById(&#39;SPG&#39;)); yaCounter22299172.reachGoal(&#39;SPG&#39;); return true;">SPG</option>
+              <option value="YAK" onclick="javascript:selectControl.unselectAll();selectControl.select(map.getLayer(&#39;vectors1&#39;).getFeatureById(&#39;YAK&#39;)); yaCounter22299172.reachGoal(&#39;YAK&#39;); return true;">YAK</option>
+            </select>
+			
+            </p> 
+
+			<table border="0" cellspacing="0" cellpadding="0">
+              <tbody><tr>
+                <td class="bodyText"><input type="checkbox" name="comp" id="v1" value="v1" checked="checked"></td>
+                <td class="bodyText"><label for="v1">X / H component</label></td>
+                <td class="bodyText"><input type="radio" id="pre_min" value="pre_min" name="table" checked="checked"></td>
+                <td class="bodyText"><label for="pre_min">1-min preliminary data</label></td>
+              </tr>
+              <tr>
+                <td class="bodyText"><input type="checkbox" name="comp" id="v2" value="v2" checked="checked"></td>
+                <td class="bodyText"><label for="v2">Y / D component</label></td>
+                <td class="bodyText"><input type="radio" id="qdef_min" value="qdef_min" name="table"></td>
+                <td class="bodyText"><label for="qdef_min">1-min quasi-definitive data</label></td>
+              </tr>
+              <tr>
+                <td class="bodyText"><input type="checkbox" name="comp" id="v3" value="v3" checked="checked"></td>
+                <td class="bodyText"><label for="v3">Z component</label></td>
+                <td class="bodyText"><input type="radio" id="def_min" value="def_min" name="table"></td>
+                <td class="bodyText"><label for="def_min">1-min definitive data</label></td>
+              </tr>
+              <tr>
+                <td class="bodyText"><input type="checkbox" name="comp" id="f" value="f" checked="checked"></td>
+                <td class="bodyText"><label for="f">F scalar total intensity</label></td>
+                <td class="bodyText"><input type="radio" id="pre_sec" value="pre_sec" name="table"></td>
+                <td class="bodyText"><label for="pre_sec">1-sec preliminary data</label></td>
+              </tr>
+              <tr>
+                <td class="bodyText"><input type="checkbox" name="comp" id="df" value="df" checked="checked"></td>
+                <td class="bodyText"><label for="df">dF = Fs - Fv</label></td>
+                <td class="bodyText"><input type="radio" id="qdef_sec" value="qdef_sec" name="table"></td>
+                <td class="bodyText"><label for="qdef_sec">1-sec quasi-definitive data</label></td>
+              </tr>
+              <tr>
+                <td class="bodyText"><input type="checkbox" name="comp" id="t1" value="t1" checked="checked"></td>
+                <td class="bodyText">t° sensor</td>
+                <td class="bodyText"><input type="radio" id="def_sec" value="def_sec" name="table"></td>
+                <td class="bodyText"><label for="def_sec">1-sec definitive data</label></td>
+              </tr>
+              <tr>
+                <td class="bodyText"><input type="checkbox" name="comp" id="t2" value="t2" checked="checked"></td>
+                <td class="bodyText">t° electronics</td>
+                <td class="bodyText">&nbsp;</td>
+                <td class="bodyText">&nbsp;</td>
+              </tr>
+              <tr>
+                <td colspan="4"><br>
+                	<table border="0" cellspacing="0" cellpadding="0">
+                      <tbody><tr>
+                        <td class="bodyText"><input type="radio" id="sel_date" value="sel_date" name="date"></td>
+                        <td class="bodyText" align="right"><label for="sel_date">&nbsp;Data period from&nbsp;</label></td>
+                        <td class="bodyText">
+                        	<input type="text" name="timeFrom_y" value="2017" maxlength="4" size="3" class="detailText" onclick="javascript:document.getElementById(&#39;sel_date&#39;).checked = true;">&nbsp;-
+                            <input type="text" name="timeFrom_mo" value="01" maxlength="2" size="1" class="detailText" onclick="javascript:document.getElementById(&#39;sel_date&#39;).checked = true;">&nbsp;-
+                            <input type="text" name="timeFrom_d" value="01" maxlength="2" size="1" class="detailText" onclick="javascript:document.getElementById(&#39;sel_date&#39;).checked = true;">&nbsp;T
+                            <input type="text" name="timeFrom_h" value="00" maxlength="2" size="1" class="detailText" onclick="javascript:document.getElementById(&#39;sel_date&#39;).checked = true;">&nbsp;:
+                            <input type="text" name="timeFrom_mi" value="00" maxlength="2" size="1" class="detailText" onclick="javascript:document.getElementById(&#39;sel_date&#39;).checked = true;">&nbsp;:
+                            <input type="text" name="timeFrom_s" value="00" maxlength="2" size="1" class="detailText" onclick="javascript:document.getElementById(&#39;sel_date&#39;).checked = true;"> UTC
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="bodyText">&nbsp;</td>
+                        <td class="bodyText" align="right"><label for="sel_date">&nbsp;to&nbsp;</label></td>
+                        <td class="bodyText">
+                        	<input type="text" name="timeTo_y" value="2017" maxlength="4" size="3" class="detailText" onclick="javascript:document.getElementById(&#39;sel_date&#39;).checked = true;">&nbsp;-
+                            <input type="text" name="timeTo_mo" value="12" maxlength="2" size="1" class="detailText" onclick="javascript:document.getElementById(&#39;sel_date&#39;).checked = true;">&nbsp;-
+                            <input type="text" name="timeTo_d" value="31" maxlength="2" size="1" class="detailText" onclick="javascript:document.getElementById(&#39;sel_date&#39;).checked = true;">&nbsp;T
+                            <input type="text" name="timeTo_h" value="23" maxlength="2" size="1" class="detailText" onclick="javascript:document.getElementById(&#39;sel_date&#39;).checked = true;">&nbsp;:
+                            <input type="text" name="timeTo_mi" value="59" maxlength="2" size="1" class="detailText" onclick="javascript:document.getElementById(&#39;sel_date&#39;).checked = true;">&nbsp;:
+                            <input type="text" name="timeTo_s" value="59" maxlength="2" size="1" class="detailText" onclick="javascript:document.getElementById(&#39;sel_date&#39;).checked = true;"> UTC                        
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="bodyText"><input type="radio" id="lastMonth" value="lastMonth" name="date"></td>
+                        <td colspan="2" class="bodyText"><label for="lastMonth">&nbsp;Last 1-month data available</label></td>
+                      </tr>
+                      <tr>
+                        <td class="bodyText"><input type="radio" id="lastWeek" value="lastWeek" name="date" checked="checked"></td>
+                        <td colspan="2" class="bodyText"><label for="lastWeek">&nbsp;Last 1-week data available</label></td>
+                      </tr>
+                      <tr>
+                        <td class="bodyText"><input type="radio" id="lastDay" value="lastDay" name="date"></td>
+                        <td colspan="2" class="bodyText"><label for="lastDay">&nbsp;Last 24-hour data available</label></td>
+                      </tr>
+                    </tbody></table><br>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="4" class="bodyText">
+                Image size (width x height):&nbsp;<input type="text" name="img_w" value="800" maxlength="4" size="3" class="detailText">&nbsp;x 
+                <input type="text" name="img_h" value="800" maxlength="4" size="3" class="detailText"></td>
+              </tr>
+              <tr>
+                <td colspan="4" align="center" height="14px"></td>
+              </tr>
+              <tr>
+                <td colspan="4" class="bodyText" align="center"><input type="submit" class="detailText" value="Submit"></td>
+              </tr>
+            </tbody></table>
+            <em>By pressing the "Submit" button you accept the conditions of data use given in <a href="http://geomag.gcras.ru/datapolicy.html" target="_blank">DATA POLICY</a> section.</em>
+        </form>
+        
+        <br>                
+        <div id="div1"></div>
+
+
+
+		</td>
+		</tr>
+	</tbody></table>
+	&nbsp;<br>	
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 	&nbsp;<br>	</td>
+	<td width="15">&nbsp;</td>
+	</tr>
+
+	<tr bgcolor="#D3DCE6">
+	<td colspan="3"><img src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/mm_spacer.gif" alt="" width="1" height="1" border="0"></td>
+	</tr>
+
+	<tr>
+	
+<!--	<td width="50">&nbsp;</td>-->
+	<td width="100%" colspan="3" align="left" class="copyrightText">
+    	<table width="100%" cellpadding="0" cellspacing="0" border="0"><tbody><tr>
+        	<td width="50%" class="copyrightText">
+    			&nbsp;<br>
+            	GC RAS&nbsp;©&nbsp;2013−2017<br>
+				Geophysical Center of Russian Academy of Sciences<br>&nbsp;
+            </td><td width="50%" align="right" valign="middle">
+<!-- Yandex.Metrika informer -->
+<a href="http://metrika.yandex.ru/stat/?id=22299172&amp;from=informer" target="_blank" rel="nofollow"><img src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/3_0_8494ABFF_64748BFF_1_pageviews" style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:22299172,lang:&#39;ru&#39;});return false}catch(e){}"></a>
+<!-- /Yandex.Metrika informer -->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter22299172 = new Ya.Metrika({id:22299172,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript>&lt;div&gt;&lt;img src="//mc.yandex.ru/watch/22299172" style="position:absolute; left:-9999px;" alt="" /&gt;&lt;/div&gt;</noscript>
+<!-- /Yandex.Metrika counter -->
+            	<a href="http://www.ras.ru/" title="Russian Academy of Sciences" target="_blank"><img src="./Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot_files/raslogowhite3.png" height="34" width="88" border="0"></a>
+        	</td>
+        </tr></tbody></table>
+    </td>
+
+	</tr>
+</tbody></table>
+
+
+
+</td></tr></tbody></table>     <!-- CLOSE CENTERED TABLE  -->
+
+
+
+    
+<!--    </td>
+	<td>&nbsp;</td>
+	</tr>
+
+	<tr>
+	<td width="15">&nbsp;<br />
+	&nbsp;<br />	</td>
+    <td width="35">&nbsp;</td>
+    <td width="710">&nbsp;</td>
+	<td width="100%">&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>-->
+
+</body></html>
