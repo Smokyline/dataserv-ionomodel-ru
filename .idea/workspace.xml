@@ -12,11 +12,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/geomag/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="522">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
                 <element signature="e#640#672#0" expanded="true" />
               </folding>
@@ -24,7 +24,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/geomag/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="20">
@@ -46,10 +46,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="site_foo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/site_foo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="119" column="43" lean-forward="false" selection-start-line="119" selection-start-column="43" selection-end-line="119" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="dataserv-ionomodel-ru.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/templates/dataserv-ionomodel-ru.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3620">
+            <state relative-caret-position="602">
               <caret line="181" column="9" lean-forward="false" selection-start-line="181" selection-start-column="9" selection-end-line="181" selection-end-column="9" />
               <folding>
                 <marker date="1496101846000" expanded="true" signature="8878:8952" ph="..." />
@@ -131,6 +141,7 @@
         <option value="$PROJECT_DIR$/site_foo.py" />
         <option value="$PROJECT_DIR$/geomag/urls.py" />
         <option value="$PROJECT_DIR$/geomag/settings.py" />
+        <option value="$PROJECT_DIR$/../dataserv-ionomodel-ru/site_foo.py" />
       </list>
     </option>
   </component>
@@ -239,6 +250,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../dataserv-ionomodel-ru/templates" />
       <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$/static/image" />
@@ -459,9 +471,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="144" width="1618" height="838" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24522293" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24522293" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22239748" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -706,13 +717,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/geomag.css" />
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2130">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/E_FIELD_FAC_MODEL_FCP/input data">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -749,22 +753,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/site_foo.py" />
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/templates/dataserv-ionomodel-ru.html">
+    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/geomag/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3620">
-          <caret line="181" column="9" lean-forward="false" selection-start-line="181" selection-start-column="9" selection-end-line="181" selection-end-column="9" />
+        <state relative-caret-position="522">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
-            <marker date="1496101846000" expanded="true" signature="8878:8952" ph="..." />
+            <element signature="e#640#672#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/geomag/settings.py">
+    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/templates/dataserv-ionomodel-ru.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="58" column="5" lean-forward="false" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="602">
+          <caret line="181" column="9" lean-forward="false" selection-start-line="181" selection-start-column="9" selection-end-line="181" selection-end-column="9" />
+          <folding>
+            <marker date="1496101846000" expanded="true" signature="8878:8952" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -778,13 +783,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/geomag/urls.py">
+    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/site_foo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="e#640#672#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="360">
+          <caret line="119" column="43" lean-forward="false" selection-start-line="119" selection-start-column="43" selection-end-line="119" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/templates/Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/geomag/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="58" column="5" lean-forward="false" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

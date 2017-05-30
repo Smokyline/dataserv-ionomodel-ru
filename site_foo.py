@@ -110,14 +110,14 @@ def draw_map(name):
     desc_geo = mag_coord_to_geo(desc_mag, PHI_P, THETA_P)
     x, y = to_spher(desc_geo)
     x, y = m(x, y)
-    xi = np.linspace(x.min(), x.max(), 85)
-    yi = np.linspace(y.min(), y.max(), 85)
+    xi = np.linspace(x.min(), x.max(), 250)
+    yi = np.linspace(y.min(), y.max(), 250)
 
     Z = griddata((x, y), z, (xi[None, :], yi[:, None]), method='linear')  # create a uniform spaced grid
     X, Y = np.meshgrid(xi, yi)
 
     lin = np.max(np.abs(z))
-    bounds = np.linspace(-1 * lin, lin, 56)
+    bounds = np.linspace(-1 * lin, lin, 500)
     cmap = 'seismic'
     CS = plt.contourf(X, Y, Z, alpha=0.60, cmap=cmap, levels=bounds, zorder=2)
     sm = plt.cm.ScalarMappable(cmap=cmap, norm=plt.Normalize(vmin=-1 * lin, vmax=lin))
