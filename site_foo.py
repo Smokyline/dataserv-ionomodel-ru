@@ -131,7 +131,8 @@ def draw_map(name):
     else:
         fmt = '%1.f'
     plt.clabel(C, inline=10, fmt=fmt, fontsize=5)
-
+    #/plt.title(str(np.mean(data[:, 2])))
+    #
     path = os.path.join(os.path.dirname(os.path.join(os.getcwd(), os.listdir(os.getcwd())[0])), 'static/image/')
     plt.savefig(path + name, dpi=450)
     # plt.show()
