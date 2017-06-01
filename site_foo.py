@@ -2,12 +2,15 @@ import math
 import os
 import numpy as np
 import subprocess
+import time
 
 import matplotlib
 matplotlib.use('Qt5Agg')
 import matplotlib.pyplot as plt
 from scipy.interpolate import griddata
 from mpl_toolkits.basemap import Basemap
+import matplotlib.mlab as ml
+
 
 
 
@@ -82,20 +85,21 @@ def mag_coord_to_geo(mag_xyz, phi, theta):
     return geo_data
 
 
-def draw_map(name):
+def draw_geo_map(name):
     data = get_surf(name)
     if name[0] == 'n':
         PHI_P, THETA_P = 252.6, 80.4
     else:
         PHI_P, THETA_P = 107.4, -80.4
 
+    plt.gca().set_aspect('equal', adjustable='box')
     # m = Basemap(projection='npstere', boundinglat=40, lon_0=0, lat_0=-30, resolution='l', )
     # m = Basemap(projection='spstere', boundinglat=-40, lon_0=0, lat_0=THETA_P, resolution='l')
+
     m = Basemap(projection='aeqd', lon_0=PHI_P, lat_0=THETA_P, width=10000000, height=10000000, resolution='l',)
     m.drawcoastlines(linewidth=0.35, color='#545454', zorder=2)
     m.drawcountries(linewidth=0.35, color='#545454', zorder=2)
     #m.fillcontinents(color='#3b5998', alpha=.25)
-    #m.drawlsmask(ocean_color='#3b5998', alpha=0.25)
     m.drawlsmask(ocean_color='#3b5998', alpha=0.25)
     parallels = np.arange(-90., 91, 30)
     m.drawparallels(parallels, labels=[1, 1, 0, 0], zorder=1, linewidth=0.4, alpha=0.6)
@@ -110,32 +114,74 @@ def draw_map(name):
     desc_geo = mag_coord_to_geo(desc_mag, PHI_P, THETA_P)
     x, y = to_spher(desc_geo)
     x, y = m(x, y)
-    xi = np.linspace(x.min(), x.max(), 250)
-    yi = np.linspace(y.min(), y.max(), 250)
 
+    xi = np.linspace(x.min(), x.max()+1, 75)
+    yi = np.linspace(y.min(), y.max()+1, 75)
     Z = griddata((x, y), z, (xi[None, :], yi[:, None]), method='linear')  # create a uniform spaced grid
     X, Y = np.meshgrid(xi, yi)
 
+
+
+
     lin = np.max(np.abs(z))
-    bounds = np.linspace(-1 * lin, lin, 500)
+    bounds = np.linspace(-1 * lin, lin, 80)
     cmap = 'seismic'
-    CS = plt.contourf(X, Y, Z, alpha=0.60, cmap=cmap, levels=bounds, zorder=2)
+    CS = plt.contourf(X, Y, Z, alpha=0.60, cmap=cmap, levels=bounds, zorder=2, lw=0.5)
     sm = plt.cm.ScalarMappable(cmap=cmap, norm=plt.Normalize(vmin=-1 * lin, vmax=lin))
     sm._A = []
     CB = plt.colorbar(sm)
     CB.ax.set_title('nT')
-    C = plt.contour(X, Y, Z, 10, colors='black', linewidth=.001, alpha=0.55, zorder=3)
 
     if lin < 1:
         fmt = '%1.3f'
     else:
         fmt = '%1.f'
-    plt.clabel(C, inline=10, fmt=fmt, fontsize=5)
-    #/plt.title(str(np.mean(data[:, 2])))
-    #
-    path = os.path.join(os.path.dirname(os.path.join(os.getcwd(), os.listdir(os.getcwd())[0])), 'static/image/')
-    plt.savefig(path + name, dpi=450)
-    # plt.show()
-    plt.close()
+    S = plt.contour(X, Y, Z, 10, linewidths=0.5, colors='k', alpha=0.7)
+    plt.clabel(S, fontsize=5, inline=1, fmt=fmt)
 
-#visual_data('n_potential_surf')
+    name += str(int(round(time.time() * 1000)))
+    path = os.path.join(os.path.dirname(os.path.join(os.getcwd(), os.listdir(os.getcwd())[0])), 'static/image/')
+    plt.savefig((path + name), dpi=450)
+    plt.close()
+    return name
+
+
+def draw_map(name):
+
+    data = get_surf(name)
+
+    x = data[:, 0]
+    y = data[:, 1]
+    z = data[:, 2]
+
+    xi = np.linspace(x.min(), x.max() + 1, 75)
+    yi = np.linspace(y.min(), y.max() + 1, 75)
+    Z = griddata((x, y), z, (xi[None, :], yi[:, None]), method='linear')  # create a uniform spaced grid
+    X, Y = np.meshgrid(xi, yi)
+
+    lin = np.max(np.abs(z))
+    bounds = np.linspace(-1 * lin, lin, 80)
+    cmap = 'seismic'
+    CS = plt.contourf(X, Y, Z, alpha=0.60, cmap=cmap, levels=bounds, zorder=2, lw=0.1)
+    sm = plt.cm.ScalarMappable(cmap=cmap, norm=plt.Normalize(vmin=-1 * lin, vmax=lin))
+    sm._A = []
+    CB = plt.colorbar(sm)
+    if 'pot' in name:
+        CB.ax.set_title(u"\u03C6")
+    elif 'fac' in name:
+        CB.ax.set_title('j')
+
+
+    if lin < 1:
+        fmt = '%1.3f'
+    else:
+        fmt = '%1.f'
+    S = plt.contour(X, Y, Z, 10, linewidths=0.5, colors='k', alpha=0.7)
+    plt.clabel(S, fontsize=5, inline=1, fmt=fmt)
+
+    name += str(int(round(time.time() * 1000)))
+    path = os.path.join(os.path.dirname(os.path.join(os.getcwd(), os.listdir(os.getcwd())[0])), 'static/image/')
+    plt.savefig((path + name), dpi=450)
+    plt.close()
+    return name
+
