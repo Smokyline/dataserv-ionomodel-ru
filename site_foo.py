@@ -9,7 +9,7 @@ matplotlib.use('Qt5Agg')
 import matplotlib.pyplot as plt
 from scipy.interpolate import griddata
 from mpl_toolkits.basemap import Basemap
-import matplotlib.mlab as ml
+
 
 
 
@@ -22,7 +22,8 @@ def find_th_name(param_dict):
     map_types = ['n_fac_surf', 's_fac_surf', 'n_potential_surf', 's_potential_surf']
 
     input_th = '%s_%s' % (param_dict['hem'], param_dict['type'])
-    return map_types[np.where(type_hem == input_th)[0]]
+    idx = int(np.where(type_hem == input_th)[0])
+    return map_types[idx]
 
 def set_param(param_dict):
     keys = ['bz', 'by', 'doy', 'kp', 'f107', 'ut']
@@ -92,19 +93,24 @@ def draw_geo_map(name):
     else:
         PHI_P, THETA_P = 107.4, -80.4
 
-    plt.gca().set_aspect('equal', adjustable='box')
+    #plt.gca().set_aspect('equal', adjustable='box')
+    #plt.axes().hold(True)
+
+
     # m = Basemap(projection='npstere', boundinglat=40, lon_0=0, lat_0=-30, resolution='l', )
     # m = Basemap(projection='spstere', boundinglat=-40, lon_0=0, lat_0=THETA_P, resolution='l')
-
     m = Basemap(projection='aeqd', lon_0=PHI_P, lat_0=THETA_P, width=10000000, height=10000000, resolution='l',)
     m.drawcoastlines(linewidth=0.35, color='#545454', zorder=2)
     m.drawcountries(linewidth=0.35, color='#545454', zorder=2)
-    #m.fillcontinents(color='#3b5998', alpha=.25)
-    m.drawlsmask(ocean_color='#3b5998', alpha=0.25)
+    #m.fillcontinents(color='0.8', alpha=.25)
+
+    m.drawlsmask(ocean_color='b', alpha=0.2)
+
     parallels = np.arange(-90., 91, 30)
     m.drawparallels(parallels, labels=[1, 1, 0, 0], zorder=1, linewidth=0.4, alpha=0.6)
     meridians = np.arange(0., 361, 30)
     m.drawmeridians(meridians, labels=[0, 0, 0, 1], zorder=1, linewidth=0.4, alpha=0.6)
+
 
     x = data[:, 0]
     y = data[:, 1]
@@ -126,11 +132,17 @@ def draw_geo_map(name):
     lin = np.max(np.abs(z))
     bounds = np.linspace(-1 * lin, lin, 80)
     cmap = 'seismic'
+
     CS = plt.contourf(X, Y, Z, alpha=0.60, cmap=cmap, levels=bounds, zorder=2, lw=0.5)
     sm = plt.cm.ScalarMappable(cmap=cmap, norm=plt.Normalize(vmin=-1 * lin, vmax=lin))
     sm._A = []
+
     CB = plt.colorbar(sm)
-    CB.ax.set_title('nT')
+    if 'pot' in name:
+        CB.ax.set_title(u"\u03C6")
+    elif 'fac' in name:
+        CB.ax.set_title('j')
+
 
     if lin < 1:
         fmt = '%1.3f'

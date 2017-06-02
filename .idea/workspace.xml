@@ -1,7 +1,167 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4784bf0-27ea-4378-814b-d7f707361b8c" name="Default" comment="" />
+    <list default="true" id="f4784bf0-27ea-4378-814b-d7f707361b8c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/._.DS_Store" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_eq_00.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_eq_01.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_eq_02.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_eq_03.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_eq_04.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_eq_05.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_eq_06.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_eq_07.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_eq_08.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_eq_11.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_eq_12.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_eq_13.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_eq_14.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_eq_15.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_eq_16.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_eq_17.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_eq_18.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_eq_21.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_eq_22.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_eq_23.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_eq_24.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_eq_25.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_eq_26.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_eq_27.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_eq_28.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_leto_00.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_leto_01.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_leto_02.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_leto_03.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_leto_04.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_leto_05.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_leto_06.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_leto_07.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_leto_08.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_leto_11.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_leto_12.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_leto_13.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_leto_14.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_leto_15.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_leto_16.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_leto_17.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_leto_18.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_leto_21.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_leto_22.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_leto_23.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_leto_24.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_leto_25.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_leto_26.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_leto_27.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_leto_28.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_zim_00.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_zim_01.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_zim_02.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_zim_03.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_zim_04.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_zim_05.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_zim_06.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_zim_07.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_zim_08.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_zim_11.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_zim_12.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_zim_13.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_zim_14.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_zim_15.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_zim_16.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_zim_17.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_zim_18.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_zim_21.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_zim_22.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_zim_23.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_zim_24.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_zim_25.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_zim_26.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_zim_27.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_n_zim_28.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_eq_00.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_eq_01.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_eq_02.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_eq_03.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_eq_04.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_eq_05.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_eq_06.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_eq_07.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_eq_08.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_eq_11.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_eq_12.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_eq_13.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_eq_14.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_eq_15.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_eq_16.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_eq_17.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_eq_18.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_eq_21.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_eq_22.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_eq_23.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_eq_24.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_eq_25.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_eq_26.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_eq_27.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_eq_28.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_leto_00.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_leto_01.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_leto_02.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_leto_03.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_leto_04.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_leto_05.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_leto_06.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_leto_07.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_leto_08.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_leto_11.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_leto_12.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_leto_13.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_leto_14.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_leto_15.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_leto_16.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_leto_17.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_leto_18.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_leto_21.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_leto_22.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_leto_23.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_leto_24.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_leto_25.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_leto_26.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_leto_27.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_leto_28.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_zim_00.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_zim_01.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_zim_02.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_zim_03.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_zim_04.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_zim_05.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_zim_06.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_zim_07.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_zim_08.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_zim_11.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_zim_12.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_zim_13.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_zim_14.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_zim_15.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_zim_16.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_zim_17.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_zim_18.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_zim_21.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_zim_22.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_zim_23.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_zim_24.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_zim_25.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_zim_26.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_zim_27.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/RE_1_FAC/fac_data/._fac_s_zim_28.dat" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataserv-ionomodel-ru.iml" afterPath="$PROJECT_DIR$/.idea/dataserv-ionomodel-ru.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/geomag/settings.py" afterPath="$PROJECT_DIR$/geomag/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/geomag/urls.py" afterPath="$PROJECT_DIR$/geomag/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage.py" afterPath="$PROJECT_DIR$/manage.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site_foo.py" afterPath="$PROJECT_DIR$/site_foo.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,10 +173,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/geomag/urls.py">
+        <entry file="file://$PROJECT_DIR$/geomag/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="e#640#672#0" expanded="true" />
               </folding>
@@ -24,24 +184,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/geomag/views.py">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/geomag/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
+            <state relative-caret-position="340">
+              <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/geomag/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
               <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
               <folding>
                 <element signature="e#0#47#0" expanded="true" />
-                <marker date="1496316153464" expanded="true" signature="0:11" ph="import ..." />
+                <marker date="1496411620988" expanded="true" signature="0:11" ph="import ..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="site_foo.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/site_foo.py">
+      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="161" column="10" lean-forward="false" selection-start-line="161" selection-start-column="10" selection-end-line="161" selection-end-column="10" />
+            <state relative-caret-position="380">
+              <caret line="19" column="56" lean-forward="false" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+              <folding>
+                <element signature="e#22#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="site_foo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site_foo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-120">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -50,7 +232,7 @@
         </entry>
       </file>
       <file leaf-file-name="print_ascii.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/templates/print_ascii.html">
+        <entry file="file://$PROJECT_DIR$/templates/print_ascii.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="40" lean-forward="false" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
@@ -60,7 +242,7 @@
         </entry>
       </file>
       <file leaf-file-name="image_view.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/templates/image_view.html">
+        <entry file="file://$PROJECT_DIR$/templates/image_view.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="80">
               <caret line="4" column="41" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
@@ -72,7 +254,7 @@
         </entry>
       </file>
       <file leaf-file-name="input data" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/E_FIELD_FAC_MODEL_FCP/input data">
+        <entry file="file://$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/input data">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
               <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
@@ -82,9 +264,9 @@
         </entry>
       </file>
       <file leaf-file-name="dataserv-ionomodel-ru.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/templates/dataserv-ionomodel-ru.html">
+        <entry file="file://$PROJECT_DIR$/templates/dataserv-ionomodel-ru.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
+            <state relative-caret-position="2900">
               <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
               <folding>
                 <marker date="1496316100847" expanded="true" signature="8893:8967" ph="..." />
@@ -122,6 +304,9 @@
       <dir>$PROJECT_DIR$/static</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -140,24 +325,27 @@
         <option value="$PROJECT_DIR$/templates/print_ascii.html" />
         <option value="$PROJECT_DIR$/templates/dataserv-ionomodel-ru.html" />
         <option value="$PROJECT_DIR$/templates/image_view.html" />
-        <option value="$PROJECT_DIR$/geomag/views.py" />
-        <option value="$PROJECT_DIR$/site_foo.py" />
         <option value="$PROJECT_DIR$/geomag/urls.py" />
         <option value="$PROJECT_DIR$/geomag/settings.py" />
-        <option value="$PROJECT_DIR$/../dataserv-ionomodel-ru/E_FIELD_FAC_MODEL_FCP/n_fac_surf.dat" />
-        <option value="$PROJECT_DIR$/../dataserv-ionomodel-ru/templates/image_view.html" />
-        <option value="$PROJECT_DIR$/../dataserv-ionomodel-ru/templates/print_ascii.html" />
-        <option value="$PROJECT_DIR$/../dataserv-ionomodel-ru/templates/dataserv-ionomodel-ru.html" />
-        <option value="$PROJECT_DIR$/../dataserv-ionomodel-ru/geomag/views.py" />
-        <option value="$PROJECT_DIR$/../dataserv-ionomodel-ru/site_foo.py" />
+        <option value="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/n_fac_surf.dat" />
+        <option value="$PROJECT_DIR$/templates/image_view.html" />
+        <option value="$PROJECT_DIR$/templates/print_ascii.html" />
+        <option value="$PROJECT_DIR$/templates/dataserv-ionomodel-ru.html" />
+        <option value="$PROJECT_DIR$/geomag/urls.py" />
+        <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/geomag/settings.py" />
+        <option value="$PROJECT_DIR$/site_foo.py" />
+        <option value="$PROJECT_DIR$/site_foo.py" />
+        <option value="$PROJECT_DIR$/geomag/views.py" />
+        <option value="$PROJECT_DIR$/geomag/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="24" />
-    <option name="y" value="41" />
-    <option name="width" value="1618" />
-    <option name="height" value="838" />
+    <option name="x" value="27" />
+    <option name="y" value="50" />
+    <option name="width" value="1118" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -174,74 +362,32 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="e_field" />
+              <option name="myItemId" value="dataserv-ionomodel-ru" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="dataserv-ionomodel-ru" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="e_field" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dataserv-ionomodel-ru" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="e_field" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dataserv-ionomodel-ru" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="e_field" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dataserv-ionomodel-ru" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="geomag" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DPSM" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project_testing" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../dataserv-ionomodel-ru/templates" />
+      <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$/static/image" />
@@ -339,12 +485,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../dataserv-ionomodel-ru" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="dataserv-ionomodel-ru" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../dataserv-ionomodel-ru/sss.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sss.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -461,17 +607,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="24" y="41" width="1618" height="838" extended-state="0" />
+    <frame x="27" y="50" width="1118" height="773" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24522293" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2224299" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872927" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33110815" sideWeight="0.50272477" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22142857" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28142858" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19175911" sideWeight="0.4972752" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905363" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -480,6 +626,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -517,34 +664,27 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/E_FIELD_FAC_MODEL_FCP/n_fac_surf.dat">
+    <entry file="file://$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/n_fac_surf.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="30" lean-forward="false" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/E_FIELD_FAC_MODEL_FCP/n_potential_surf.dat">
+    <entry file="file://$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/n_potential_surf.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/geomag/views.py">
+    <entry file="file://$PROJECT_DIR$/geomag/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="e#0#47#0" expanded="true" />
-            <marker date="1496316153464" expanded="true" signature="0:11" ph="import ..." />
+            <marker date="1496411620988" expanded="true" signature="0:11" ph="import ..." />
           </folding>
         </state>
       </provider>
@@ -552,14 +692,14 @@
     <entry file="file://$PROJECT_DIR$/templates/result.html" />
     <entry file="file://$PROJECT_DIR$/set_input_param.py" />
     <entry file="file://$PROJECT_DIR$/visual_xyz_data.py" />
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/sss.py">
+    <entry file="file://$PROJECT_DIR$/sss.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/geomag/urls.py">
+    <entry file="file://$PROJECT_DIR$/geomag/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
@@ -569,34 +709,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/E_FIELD_FAC_MODEL_FCP/n_fac_surf.dat">
+    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/n_fac_surf.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="30" lean-forward="true" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/E_FIELD_FAC_MODEL_FCP/n_potential_surf.dat">
+    <entry file="file://$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/n_potential_surf.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/geomag/views.py">
+    <entry file="file://$PROJECT_DIR$/geomag/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
             <element signature="e#0#47#0" expanded="true" />
-            <marker date="1496316153464" expanded="true" signature="0:11" ph="import ..." />
+            <marker date="1496411620988" expanded="true" signature="0:11" ph="import ..." />
           </folding>
         </state>
       </provider>
@@ -604,7 +738,7 @@
     <entry file="file://$PROJECT_DIR$/templates/result.html" />
     <entry file="file://$PROJECT_DIR$/set_input_param.py" />
     <entry file="file://$PROJECT_DIR$/visual_xyz_data.py" />
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/sss.py">
+    <entry file="file://$PROJECT_DIR$/sss.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -615,28 +749,28 @@
     <entry file="file://$USER_HOME$/anaconda/lib/python3.5/subprocess.py" />
     <entry file="file://$PROJECT_DIR$/input2" />
     <entry file="file://$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/input data2" />
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/E_FIELD_FAC_MODEL_FCP/H">
+    <entry file="file://$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/H">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8671">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/E_FIELD_FAC_MODEL_FCP/h64">
+    <entry file="file://$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/h64">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3631">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/E_FIELD_FAC_MODEL_FCP/T128.DAT">
+    <entry file="file://$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/T128.DAT">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/E_FIELD_FAC_MODEL_FCP/s_fac.dat">
+    <entry file="file://$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/s_fac.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -644,79 +778,63 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/input datas" />
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/E_FIELD_FAC_MODEL_FCP/N_potential.dat">
+    <entry file="file://$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/N_potential.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="62" lean-forward="false" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/E_FIELD_FAC_MODEL_FCP/n_fac.dat">
+    <entry file="file://$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/n_fac.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="76" lean-forward="true" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/E_FIELD_FAC_MODEL_FCP/n_potential_surf.dat">
+    <entry file="file://$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/n_potential_surf.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/image/polar_res.png" />
     <entry file="file://$PROJECT_DIR$/static/geomag.css" />
     <entry file="file://$PROJECT_DIR$/set_input_param.py" />
     <entry file="file://$PROJECT_DIR$/visual_xyz_data.py" />
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/test.py.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py.ipynb" />
     <entry file="file://$PROJECT_DIR$/templates/result.html" />
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/templates/form.html">
+    <entry file="file://$PROJECT_DIR$/templates/form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4320">
           <caret line="216" column="217" lean-forward="false" selection-start-line="216" selection-start-column="200" selection-end-line="216" selection-end-column="217" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/templates/Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot.htm">
+    <entry file="file://$PROJECT_DIR$/templates/Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/sss.py">
+    <entry file="file://$PROJECT_DIR$/sss.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/E_FIELD_FAC_MODEL_FCP/n_fac_surf.dat">
+    <entry file="file://$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/n_fac_surf.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/E_FIELD_FAC_MODEL_FCP/input data">
+    <entry file="file://$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/input data">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
@@ -724,22 +842,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/static/image/n_fac_surf.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/static/image/n_potential_surf.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/static/image/s_fac_surf.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/templates/image_view.html">
+    <entry file="file://$PROJECT_DIR$/static/image/n_fac_surf.png" />
+    <entry file="file://$PROJECT_DIR$/static/image/n_potential_surf.png" />
+    <entry file="file://$PROJECT_DIR$/static/image/s_fac_surf.png" />
+    <entry file="file://$PROJECT_DIR$/templates/image_view.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" column="41" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
@@ -749,25 +855,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/geomag/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-320">
-          <caret line="74" column="25" lean-forward="false" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/geomag/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#640#672#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/templates/print_ascii.html">
+    <entry file="file://$PROJECT_DIR$/templates/print_ascii.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="40" lean-forward="false" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
@@ -775,9 +863,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/templates/dataserv-ionomodel-ru.html">
+    <entry file="file://$PROJECT_DIR$/templates/dataserv-ionomodel-ru.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
+        <state relative-caret-position="2900">
           <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
           <folding>
             <marker date="1496316100847" expanded="true" signature="8893:8967" ph="..." />
@@ -785,23 +873,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/geomag/views.py">
+    <entry file="file://$PROJECT_DIR$/geomag/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        <state relative-caret-position="360">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <element signature="e#0#47#0" expanded="true" />
-            <marker date="1496316153464" expanded="true" signature="0:11" ph="import ..." />
+            <element signature="e#640#672#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../dataserv-ionomodel-ru/site_foo.py">
+    <entry file="file://$PROJECT_DIR$/geomag/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="161" column="10" lean-forward="false" selection-start-line="161" selection-start-column="10" selection-end-line="161" selection-end-column="10" />
+        <state relative-caret-position="340">
+          <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="56" lean-forward="false" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site_foo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geomag/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+            <marker date="1496411620988" expanded="true" signature="0:11" ph="import ..." />
           </folding>
         </state>
       </provider>

@@ -18,12 +18,10 @@ from django.contrib import admin
 from geomag.views import *
 
 urlpatterns = [
-    #url(r'^static/(?P<path>.*)$', serve, {'MEDIA_URL': settings.MEDIA_ROOT}),
+
     url(r'^admin/', admin.site.urls),
     url(r'^dataserv-ionomodel-ru/$', ionomodel_form),
     url(r'^dataserv-ionomodel-ru/program_name', show_res),
-    #url(r'^program_name', show_res),
-    #url(r'^form/image_view/(?P<idx>[0-3])/$', show_image),
 
 ]
 
