@@ -2,46 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4784bf0-27ea-4378-814b-d7f707361b8c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1496398260810.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1496405399452.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1496405474673.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1496405793897.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1496405818900.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1496405871129.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1496405886884.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1496405916300.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1496405954527.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1496406107998.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1496406203510.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1496406244523.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1496406338139.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1496406363691.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1496406385751.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1496406430507.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1496406618942.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1496406667253.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1496406700445.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1496406754433.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1496406781718.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1496406862764.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1496406887220.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1496406900012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1496406911652.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1496406922792.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1496406933225.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1496406998664.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1496407006746.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1496407020939.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1496407098840.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1496407110096.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1496407135868.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1496407152431.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1496407178722.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1496411605886.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1496411630309.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/geomag/settings.py" afterPath="$PROJECT_DIR$/geomag/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/geomag/views.py" afterPath="$PROJECT_DIR$/geomag/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site_foo.py" afterPath="$PROJECT_DIR$/site_foo.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/geomag/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="394">
@@ -101,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="site_foo.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="site_foo.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/site_foo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="106" column="5" lean-forward="false" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
+            <state relative-caret-position="-820">
+              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -216,10 +176,10 @@
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/geomag/views.py" />
         <option value="$PROJECT_DIR$/geomag/views.py" />
-        <option value="$PROJECT_DIR$/site_foo.py" />
         <option value="$PROJECT_DIR$/geomag/settings.py" />
         <option value="$PROJECT_DIR$/site_foo.py" />
         <option value="$PROJECT_DIR$/geomag/settings.py" />
+        <option value="$PROJECT_DIR$/site_foo.py" />
       </list>
     </option>
   </component>
@@ -765,16 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/site_foo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="106" column="5" lean-forward="false" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
@@ -782,6 +732,14 @@
           <folding>
             <element signature="e#22#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geomag/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -796,11 +754,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/geomag/settings.py">
+    <entry file="file://$PROJECT_DIR$/site_foo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-820">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

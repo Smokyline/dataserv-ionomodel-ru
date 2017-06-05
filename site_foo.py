@@ -5,7 +5,7 @@ import subprocess
 import time
 
 import matplotlib
-matplotlib.use('Qt5Agg')
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from scipy.interpolate import griddata
 from mpl_toolkits.basemap import Basemap
