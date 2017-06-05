@@ -104,7 +104,7 @@ def draw_geo_map(name):
     m.drawcountries(linewidth=0.35, color='#545454', zorder=2)
     #m.fillcontinents(color='0.8', alpha=.25)
 
-    m.drawlsmask(ocean_color='b', alpha=0.2)
+    #m.drawlsmask(ocean_color='#80b4c5', alpha=0.2)
 
     parallels = np.arange(-90., 91, 30)
     m.drawparallels(parallels, labels=[1, 1, 0, 0], zorder=1, linewidth=0.4, alpha=0.6)
