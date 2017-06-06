@@ -12,10 +12,10 @@ from mpl_toolkits.basemap import Basemap
 
 
 
-prj_path = os.getcwd()
+
 
 def run_exe_program():
-    out = subprocess.call('cd %s/E_FIELD_FAC_MODEL_FCP \nwine coef_ut.exe \nwine fac_bt_season.exe \nwine tph.exe \nwine ris_surfer_sigma.exe \nwine ris_surfer_fac.exe'%prj_path, shell=True)
+    print(subprocess.call()    out = subprocess.call('cd ./E_FIELD_FAC_MODEL_FCP \nwine coef_ut.exe \nwine fac_bt_season.exe \nwine tph.exe \nwine ris_surfer_sigma.exe \nwine ris_surfer_fac.exe', shell=True)
 
 def find_th_name(param_dict):
     type_hem = np.array(['n_fac', 's_fac', 'n_pot', 's_pot'])
@@ -28,7 +28,7 @@ def find_th_name(param_dict):
 def set_param(param_dict):
     keys = ['bz', 'by', 'doy', 'kp', 'f107', 'ut']
     format_param = [' Bz=    v', ' By=    v', ' DOY=     v', ' Kp=    v', ' F107=  v', ' UT=    v']
-    f = open('%s/E_FIELD_FAC_MODEL_FCP/input data'%prj_path, 'w')
+    f = open('E_FIELD_FAC_MODEL_FCP/input data', 'w')
     for i, p in enumerate(format_param):
         line = p.replace('v', str(float(param_dict[keys[i]])))
         f.write(line+'\n')
