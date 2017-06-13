@@ -5,7 +5,8 @@ var eventCounter = 0;
 function nextEvent (lang) {
 	if (lang == 'en') {
 
-		var events = ['1-second scalar data transmission from Kazan (KZN) observatory has been started.<br /><em>01.03.2017</em>',
+		var events = ['Online service for Swarm satellite data access has been launched: <a href=\"dataprod-sat.html\">Satellite Data</a>.<br /><em>27.03.2017</em>',
+					  '1-second scalar data transmission from Kazan (KZN) observatory has been started.<br /><em>01.03.2017</em>',
 					  '1-second preliminary, quasi-definitive and definitive data can be now plotted online (<a href=\"dataprod-plot.html\">Plot</a> section).<br /><em>26.12.2016</em>',
 					  'Arti (<strong>ARS</strong>) observatory has turned <strong>180</strong> years old.<br /><em>01.12.2016</em>',
 					  'For Magadan observatory, missing data from the main FGE vector magnetometer are automatically filled with data from backup dIdD magnetometer.<br /><em>18.10.2016</em>',
@@ -41,7 +42,8 @@ function nextEvent (lang) {
 					  'Upcoming International Conference <a href=\"http://kaluga2013.gcras.ru/\" target=\"_blank\">&quot;Geophysical Observatories, Multifunctional GIS and Data Mining&quot;</a> on 30 September - 3 October 2013 in Kaluga, Russia.<br /><em>01.08.2013</em>'];
 	}
 	else {
-		var events = ['Начата передача 1-секундных скалярных данных из обсерватории \"Казань\" (KZN).<br /><em>01.03.2017</em>',
+		var events = ['Добавлен онлайн-сервис доступа к спутниковым данным Swarm: <a href=\"dataprod-sat.html\">Satellite Data</a>.<br /><em>27.03.2017</em>',
+				      'Начата передача 1-секундных скалярных данных из обсерватории \"Казань\" (KZN).<br /><em>01.03.2017</em>',
 					  'Разработан онлайн-сервис построения графиков по 1-секундным предварительным, квази-окончательным и окончательным данным (раздел <a href=\"dataprod-plot.html\">Plot</a>).<br /><em>26.12.2016</em>',
 					  'Обсерватории Арти (<strong>ARS</strong>) исполнилось <strong>180</strong> лет.<br /><em>01.12.2016</em>',
 					  'Для обсерватории Магадан настроено автоматическое заполнение пропуков данных основного векторного магнитометра FGE данными с дублирующего магнитометра dIdD.<br /><em>18.10.2016</em>',
@@ -632,4 +634,92 @@ function insertDate () {
 		//form.time_d.value = "0" + dt.getDate();
 	}
 }
+			
+function ionoRequest (divId, formName)
+{
+	if (document.forms[formName].out[1].checked=="1") { // ASCII format selected
+		if (iframe_created == 0) {			
+				// new iframe is created
+				container = document.getElementById(divId);
+				requestRes = generateRequestIono (formName, 'program_name');
+				
+				var el = document.createElement("iframe");
+				container.appendChild(el);
+				el.id = 'iframe';
+				el.height='400';
+				el.width='608';
+				el.src = requestRes[0];				
+
+				var br1 = document.createElement("br");
+				container.appendChild(br1);
+				br1.id = 'br1';
+				var br2 = document.createElement("br");
+				container.appendChild(br2);
+				br2.id = 'br2';
+
+				var save_a = document.createElement("a");
+				container.appendChild(save_a);
+				save_a.id = 'save_a';
+				
+				var but = document.createElement("input");
+				container.appendChild(but);
+				but.type = 'submit';
+				but.value = 'Save to file';
+				but.id = 'save';
+				but.setAttribute("class", 'detailText');
+
+				but.onclick = function() { // Note this is a function
+					var s = document.getElementById("iframe").contentDocument.getElementsByTagName('pre')[0].innerHTML;
+					s=s.replace(/\r?\n/g,"\r\n");
+					var file = new Blob([s], {type: 'text/plain'});
+					save_a.href = URL.createObjectURL(file);
+					save_a.download = requestRes[1] + '.txt';
+					save_a.click();
+				}; 				
+				
+				iframe_created = 1;
+
+		}
+		else {
+				// existing frame is updated
+				requestRes = generateRequestIono (formName, 'program_name');
+				document.getElementById('iframe').src = requestRes[0];
+				document.getElementById('save_a').download = requestRes[1];
+
+		}
+	}
+	else // if plot is requested
+	{
+			if (iframe_created != 0) { // if iframe is already created, we remove it
+				document.getElementById(divId).removeChild(document.getElementById('iframe'));
+				document.getElementById(divId).removeChild(document.getElementById('br1'));
+				document.getElementById(divId).removeChild(document.getElementById('br2'));
+				document.getElementById(divId).removeChild(document.getElementById('save_a'));				
+				document.getElementById(divId).removeChild(document.getElementById('save'));
+				iframe_created = 0;
+			}
+			var params = "menubar=no,resizable=yes,scrollbars=yes";
+			window.open(generateRequestIono (formName, 'program_name')[0], "ionoPlot", params);
+	}
+}	
+			
+function generateRequestIono (formName, servletName)
+{
+
+	form = document.forms[formName];
+	if (form.out[1].checked=="1") {
+			outflag = "ascii";
+	}
+	else {
+		outflag="plot";
+	}
+	var param = "?type=" + form.type.value + "&hem=" + form.hem.value + "&bz=" + form.bz.value + "&f107=" + form.f107.value + "&by=" + form.by.value + "&doy=" + form.doy.value + "&kp=" + form.kp.value + "&ut=" + form.ut.value + "&img_w=" + form.img_w.value + "&img_h=" + form.img_h.value + "&out="+outflag;
+	var res = new Array(2);
+	res[0] = 'http://93.180.14.17:8000/dataserv-ionomodel-ru/' + servletName + param;
+	res[1] = form.type.value+'_'+form.hem.value+'_'+form.doy.value+'_'+servletName;
+	return res;
+}
+			
+			
+			
 			
