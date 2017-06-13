@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4784bf0-27ea-4378-814b-d7f707361b8c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1497343650360.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1497346317326.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1497349499468.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1497349653927.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1497349708800.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1497351220310.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/s_potential_surf1497349580590.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/geomag/views.py" afterPath="$PROJECT_DIR$/geomag/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site_foo.py" afterPath="$PROJECT_DIR$/site_foo.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/print_ascii.html" afterPath="$PROJECT_DIR$/templates/print_ascii.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/geomag-site/dynElements.js" afterPath="$PROJECT_DIR$/static/geomag-site/dynElements.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/dataserv-ionomodel-ru.html" afterPath="$PROJECT_DIR$/templates/dataserv-ionomodel-ru.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,8 +19,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/geomag/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="23" column="58" lean-forward="false" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+            <state relative-caret-position="250">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
                 <element signature="e#640#672#0" expanded="true" />
               </folding>
@@ -39,18 +31,18 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/geomag/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
+            <state relative-caret-position="560">
               <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/geomag/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="678">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
               <folding>
                 <element signature="e#0#47#0" expanded="true" />
                 <marker date="1497353970066" expanded="true" signature="0:11" ph="import ..." />
@@ -59,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="site_foo.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="site_foo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site_foo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="41" column="42" lean-forward="false" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+            <state relative-caret-position="520">
+              <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -74,9 +66,21 @@
       <file leaf-file-name="dataserv-ionomodel-ru.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/dataserv-ionomodel-ru.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-924">
-              <caret line="148" column="23" lean-forward="false" selection-start-line="148" selection-start-column="23" selection-end-line="148" selection-end-column="23" />
+            <state relative-caret-position="-375">
+              <caret line="80" column="62" lean-forward="false" selection-start-line="80" selection-start-column="62" selection-end-line="80" selection-end-column="62" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="image_view.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/image_view.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+              <folding>
+                <marker date="1496241223020" expanded="true" signature="146:153" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,8 +98,8 @@
       <file leaf-file-name="print_ascii.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/print_ascii.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+            <state relative-caret-position="20">
+              <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -132,6 +136,11 @@
       <find>bodyText</find>
       <find>img/</find>
       <find>/static/geomag/</find>
+      <find>program_</find>
+      <find>program_n</find>
+      <find>program_na</find>
+      <find>program_nam</find>
+      <find>program_name</find>
     </findStrings>
     <replaceStrings>
       <replace>/static/geomag/</replace>
@@ -140,6 +149,7 @@
     <dirStrings>
       <dir>$PROJECT_DIR$/templates</dir>
       <dir>$PROJECT_DIR$/static</dir>
+      <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -180,9 +190,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="122" />
-    <option name="width" value="1480" />
+    <option name="x" value="85" />
+    <option name="y" value="52" />
+    <option name="width" value="1461" />
     <option name="height" value="820" />
   </component>
   <component name="ProjectView">
@@ -487,10 +497,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="122" width="1480" height="820" extended-state="1" />
+    <frame x="85" y="52" width="1461" height="820" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18226257" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18471338" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33110815" sideWeight="0.50272477" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32743362" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -514,6 +524,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19175911" sideWeight="0.4972752" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2224299" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32743362" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905363" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -724,7 +735,10 @@
     <entry file="file://$PROJECT_DIR$/templates/image_view.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
-          <caret line="4" column="41" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding>
+            <marker date="1496241223020" expanded="true" signature="146:153" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -742,14 +756,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="21" lean-forward="false" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/print_ascii.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        <state relative-caret-position="20">
+          <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -764,25 +777,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/dataserv-ionomodel-ru.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-924">
-          <caret line="148" column="23" lean-forward="false" selection-start-line="148" selection-start-column="23" selection-end-line="148" selection-end-column="23" />
+        <state relative-caret-position="-375">
+          <caret line="80" column="62" lean-forward="false" selection-start-line="80" selection-start-column="62" selection-end-line="80" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/geomag/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="23" column="58" lean-forward="false" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+        <state relative-caret-position="250">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
             <element signature="e#640#672#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/site_foo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/geomag/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
+        <state relative-caret-position="560">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
@@ -790,21 +813,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/geomag/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
           <folding>
             <element signature="e#0#47#0" expanded="true" />
             <marker date="1497353970066" expanded="true" signature="0:11" ph="import ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site_foo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="41" column="42" lean-forward="false" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -641,7 +641,7 @@ function ionoRequest (divId, formName)
 		if (iframe_created == 0) {			
 				// new iframe is created
 				container = document.getElementById(divId);
-				requestRes = generateRequestIono (formName, 'program_name');
+				requestRes = generateRequestIono (formName, 'ionomodel');
 				
 				var el = document.createElement("iframe");
 				container.appendChild(el);
@@ -682,7 +682,7 @@ function ionoRequest (divId, formName)
 		}
 		else {
 				// existing frame is updated
-				requestRes = generateRequestIono (formName, 'program_name');
+				requestRes = generateRequestIono (formName, 'ionomodel');
 				document.getElementById('iframe').src = requestRes[0];
 				document.getElementById('save_a').download = requestRes[1];
 
@@ -699,7 +699,7 @@ function ionoRequest (divId, formName)
 				iframe_created = 0;
 			}
 			var params = "menubar=no,resizable=yes,scrollbars=yes";
-			window.open(generateRequestIono (formName, 'program_name')[0], "ionoPlot", params);
+			window.open(generateRequestIono (formName, 'ionomodel')[0], "ionoPlot", params);
 	}
 }	
 			
