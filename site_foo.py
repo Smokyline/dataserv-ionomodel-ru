@@ -36,6 +36,12 @@ def set_param(param_dict):
     f.write('   IMF clock angle=  45.0')
     f.close()
 
+def array_to_string(xyz):
+    str_array = ''
+    for x, y, z, in xyz:
+        s = '%.2f %.2f %.2f\n' % (x, y, z)
+        str_array += s
+    return str_array
 
 def get_surf(file_name):
     file = open('E_FIELD_FAC_MODEL_FCP/' + file_name + '.dat')

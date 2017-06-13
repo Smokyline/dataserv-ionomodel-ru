@@ -1,6 +1,6 @@
 from django.shortcuts import render_to_response
 from geomag import settings
-from site_foo import set_param, run_exe_program, draw_geo_map, draw_map, find_th_name, get_surf
+from site_foo import *
 
 
 def show_res(request):
@@ -26,7 +26,8 @@ def show_res(request):
     else:
         # ascii
         xyz = get_surf(data_type)
-        return render_to_response('print_ascii.html', {'XYZ': xyz, 'DATA_TYPE': data_type})
+        str_xyz = array_to_string(xyz)
+        return render_to_response('print_ascii.html', {'XYZ': str_xyz})
 
 
 def ionomodel_form(request):
