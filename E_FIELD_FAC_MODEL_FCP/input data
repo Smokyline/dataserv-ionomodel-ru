@@ -3,6 +3,6 @@
  DOY=     1.0
  Kp=    1.0
  F107=  100.0
- UT=    1.0
+ UT=    12.0
    BT=   1.4
    IMF clock angle=  45.0
