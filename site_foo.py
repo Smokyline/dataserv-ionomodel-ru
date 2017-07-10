@@ -1,3 +1,4 @@
+
 import math
 import os
 import numpy as np
@@ -135,7 +136,7 @@ def draw_map(name):
 
     xi = np.linspace(x.min(), x.max(), 200)
     yi = np.linspace(y.min(), y.max(), 200)
-    Vi = griddata((x, y), z, (xi[None, :], yi[:, None]), method='cubic')  # create a uniform spaced grid
+    Vi = griddata((x, y), z, (xi[None, :], yi[:, None]), method='linear')  # create a uniform spaced grid
     X, Y = np.meshgrid(xi, yi)
 
     lin = np.max(np.abs(z)) + (np.max(np.abs(z)) / 10)
@@ -154,7 +155,7 @@ def draw_map(name):
     if 'potential' in name:
         CB.ax.set_title('kV', size=10)
     elif 'fac' in name:
-        CB.ax.set_title('μА/м²', size=10)
+        CB.ax.set_title('μА/m²', size=10)
     elif 'sigma' in name:
         CB.ax.set_title('Sm', size=10)
 
