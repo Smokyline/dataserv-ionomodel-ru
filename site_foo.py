@@ -33,12 +33,12 @@ def find_th_name(param_dict):
 
 def set_param(param_dict):
     keys = ['bz', 'by', 'doy', 'kp', 'f107', 'ut']
-    format_param = [' Bz=    v', ' By=    v', ' DOY=     v', ' Kp=    v', ' F107=  v', ' UT=    v']
+    format_param = [' Bz=    v', ' By=    v', ' DOY=    v', ' Kp=    v', ' F107=  v', ' UT=    v']
     f = open('%s/E_FIELD_FAC_MODEL_FCP/input data' % prj_path, 'w')
     for i, p in enumerate(format_param):
         line = p.replace('v', str(np.around(float(param_dict[keys[i]]), 1)))
         f.write(line + '\n')
-    f.write('   BT=   1.4\n')
+    f.write('   BT=   %s\n' % (np.sqrt(float(param_dict['bz'])**2 + float(param_dict['by'])**2).round(1)))
     f.write('   IMF clock angle=  45.0')
     f.close()
 
