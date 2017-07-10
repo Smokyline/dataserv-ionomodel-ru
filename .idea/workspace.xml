@@ -5,13 +5,21 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/N_potential.dat" afterPath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/N_potential.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/S_potential.dat" afterPath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/S_potential.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/coef_UT_n.dat" afterPath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/coef_UT_n.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/coef_UT_s.dat" afterPath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/coef_UT_s.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/input data" afterPath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/input data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/n_fac.dat" afterPath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/n_fac.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/n_fac_surf.dat" afterPath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/n_fac_surf.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/n_potential_surf.dat" afterPath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/n_potential_surf.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/n_sigma_surf.dat" afterPath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/n_sigma_surf.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/s_fac.dat" afterPath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/s_fac.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/s_fac_surf.dat" afterPath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/s_fac_surf.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/s_potential_surf.dat" afterPath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/s_potential_surf.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/s_sigma_surf.dat" afterPath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/s_sigma_surf.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/sigH_n.dat" afterPath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/sigH_n.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/sigH_s.dat" afterPath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/sigH_s.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/sigP_n.dat" afterPath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/sigP_n.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/sigP_s.dat" afterPath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/sigP_s.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site_foo.py" afterPath="$PROJECT_DIR$/site_foo.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +45,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/geomag/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+            <state relative-caret-position="320">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -49,6 +57,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="140">
               <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="n_fac_surf.dat" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/n_fac_surf.dat">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -70,8 +88,8 @@
       <file leaf-file-name="site_foo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site_foo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="160">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -178,10 +196,10 @@
         <option value="$PROJECT_DIR$/geoplotlib_ex.py" />
         <option value="$PROJECT_DIR$/map.py" />
         <option value="$PROJECT_DIR$/sss.py" />
-        <option value="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/n_fac_surf.dat" />
+        <option value="$PROJECT_DIR$/templates/dataserv-ionomodel-ru.html" />
+        <option value="$PROJECT_DIR$/templates/dataserv-ionomodel-ru.html" />
         <option value="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/input data" />
-        <option value="$PROJECT_DIR$/templates/dataserv-ionomodel-ru.html" />
-        <option value="$PROJECT_DIR$/templates/dataserv-ionomodel-ru.html" />
+        <option value="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/n_fac_surf.dat" />
         <option value="$PROJECT_DIR$/site_foo.py" />
         <option value="$PROJECT_DIR$/site_foo.py" />
         <option value="$PROJECT_DIR$/geomag/settings.py" />
@@ -746,22 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/n_fac_surf.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/input data">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/sigH_s.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -780,10 +782,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/geomag/urls.py">
+    <entry file="file://$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/input data">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        <state relative-caret-position="140">
+          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/n_fac_surf.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -801,18 +811,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/site_foo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="160">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/geomag/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/geomag/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        <state relative-caret-position="320">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>

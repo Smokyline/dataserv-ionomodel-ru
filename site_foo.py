@@ -56,8 +56,11 @@ def get_surf(file_name):
     xyz_array = np.empty((0, 3))
     for line in file.readlines():
         xyz_array = np.append(xyz_array, [np.array(line.split()).astype(float)], axis=0)
+    X = xyz_array[:, 1]
+    Y = xyz_array[:, 0] * -1
+    Z = xyz_array[:, 2]
 
-    return np.array([xyz_array[:, 1] * -1, xyz_array[:, 0], xyz_array[:, 2]]).T
+    return np.array([X, Y, Z]).T
     # return xyz_array
 
 
@@ -130,8 +133,8 @@ def draw_map(name):
 
     # grid the data.
 
-    xi = np.linspace(x.min(), x.max() + 1, 120)
-    yi = np.linspace(y.min(), y.max() + 1, 120)
+    xi = np.linspace(x.min(), x.max(), 200)
+    yi = np.linspace(y.min(), y.max(), 200)
     Vi = griddata((x, y), z, (xi[None, :], yi[:, None]), method='cubic')  # create a uniform spaced grid
     X, Y = np.meshgrid(xi, yi)
 
@@ -149,11 +152,11 @@ def draw_map(name):
 
     CB = plt.colorbar(sm)
     if 'potential' in name:
-        CB.ax.set_title('кВ', size=10)
+        CB.ax.set_title('kV', size=10)
     elif 'fac' in name:
-        CB.ax.set_title('мюА/м2', size=10)
+        CB.ax.set_title('μА/м²', size=10)
     elif 'sigma' in name:
-        CB.ax.set_title('Сим', size=10)
+        CB.ax.set_title('Sm', size=10)
 
     if lin < 1:
         fmt = '%1.3f'
