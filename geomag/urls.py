@@ -21,7 +21,7 @@ urlpatterns = [
 
     url(r'^admin/', admin.site.urls),
     url(r'^dataserv-ionomodel-ru/$', ionomodel_form),
-    url(r'^dataserv-ionomodel-ru/ionomodel', show_res),
+    url(r'^dataserv-ionomodel-ru/program_name', show_res),
 
 ]
 
