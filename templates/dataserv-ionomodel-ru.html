@@ -81,16 +81,16 @@
 
 <p>Карты расчетных параметров строятся в координатах "местное магнитное время (MLT) - магнитная коширота". Верх изображения соответствует направлению на Солнце (12 MLT), справа - утренняя сторона, слева - вечерняя сторона, внизу - полуночная сторона. Центр изображения соответствует геомагнитному полюсу.</p>		
 <p>
-<strong>Data type:</strong>&nbsp;
+<strong>Параметр:</strong>&nbsp;
             <select id="type" name="type" class="bodyText">
              <option value="fac">FAC</option>
-             <option value="pot">Potential</option>
+             <option value="pot">Потенциал</option>
              <option value="sigh">sigH</option>
             </select>
-&nbsp;<strong>Hemisphere:</strong>&nbsp;
+&nbsp;<strong>Полушарие:</strong>&nbsp;
             <select id="hem" name="hem" class="bodyText">
-             <option value="n">Northern</option>
-             <option value="s">Southern</option>
+             <option value="n">Северное</option>
+             <option value="s">Южное</option>
             </select>
 		</p>
   			
@@ -99,15 +99,14 @@
                 <td>
                 	<table border="0" cellspacing="0" cellpadding="0">
 					  
-					  <tr><td class="bodyText">Bz:&nbsp;</td><td><input type="text" name="bz"   value="1"   maxlength="3" size="3" class="detailText"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
-						<td class="bodyText">F107:&nbsp;</td><td><input type="text" name="f107" value="100" maxlength="3" size="3" class="detailText" onclick="javascript:document.getElementById('sel_date').checked = true;" /></td></tr>
+					  <tr><td class="bodyText">Bz, <em>нТл</em>:&nbsp;</td><td class="bodyText"><input type="text" name="bz"   value="1"   maxlength="3" size="3" class="detailText"/>&nbsp;(-12...12)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+						<td class="bodyText">F107, <em>ед.</em>:&nbsp;</td><td class="bodyText"><input type="text" name="f107" value="100" maxlength="3" size="3" class="detailText"/>&nbsp;(50...350)</td></tr>
 						
-                      <tr><td class="bodyText">By:&nbsp;</td><td><input type="text" name="by"   value="1"   maxlength="3" size="3" class="detailText" onclick="javascript:document.getElementById('sel_date').checked = true;" /></td>
-						<td class="bodyText">DOY:&nbsp;</td><td><input type="text" name="doy"  value="1"   maxlength="3" size="3" class="detailText" onclick="javascript:document.getElementById('sel_date').checked = true;" /></td></tr>
+                      <tr><td class="bodyText">By, <em>нТл</em>:&nbsp;</td><td class="bodyText"><input type="text" name="by"   value="1"   maxlength="3" size="3" class="detailText"/>&nbsp;(-12...12)</td>
+						<td class="bodyText">DOY, <em>дни</em>:&nbsp;</td><td class="bodyText"><input type="text" name="doy"   value="1"   maxlength="3" size="3" class="detailText"/>&nbsp;(1...356)</td></tr>
 						
-					  <tr><td class="bodyText">Kp:&nbsp;</td><td><input type="text" name="kp"   value="1"   maxlength="3" size="3" class="detailText" onclick="javascript:document.getElementById('sel_date').checked = true;" /></td>
-						<td class="bodyText">UT:&nbsp;</td><td><input type="text" name="ut"   value="1"   maxlength="3" size="3" class="detailText" onclick="javascript:document.getElementById('sel_date').checked = true;" /></td></tr>
-                      
+					  <tr><td class="bodyText">Kp, <em>ед.</em>:&nbsp;</td><td class="bodyText"><input type="text" name="kp"   value="1"   maxlength="3" size="3" class="detailText"/>&nbsp;(1...8)</td>
+						<td class="bodyText">UT, <em>десятичные часы</em>:&nbsp;</td><td class="bodyText"><input type="text"   name="ut"   value="1"   maxlength="3" size="3" class="detailText"/>&nbsp;(0.0...23.9)</td></tr>					  
                       
                       
                       
@@ -120,13 +119,13 @@
 					<table border="0" width="100%" cellpadding="0" cellspacing="0">
                 		<tr>
                         	<td class="bodyText"><input type="radio" id="plot" value="plot" name="out" checked="checked" /></td>
-                            <td class="bodyText"><label for="plot">Plot data&nbsp;<a href = "#" onclick="window.open(this.href, 'newwindow','width=630, height=700,left=300,location=no,resizable=no, scrollbars=yes, toolbar=no'); return false;" target = "_blank"><img src="../static/geomag-site/qm16.gif" width="16" height="16" border="0" /></a>&nbsp;&nbsp;Image size (width x height):&nbsp;</label>
+                            <td class="bodyText"><label for="plot">Графический вывод&nbsp;<a href = "#" onclick="window.open(this.href, 'newwindow','width=630, height=700,left=300,location=no,resizable=no, scrollbars=yes, toolbar=no'); return false;" target = "_blank"><img src="../static/geomag-site/qm16.gif" width="16" height="16" border="0" /></a>&nbsp;&nbsp;Размер изображения (ширина x высота):&nbsp;</label>
                             					 <input type="text" name="img_w"  value="800" maxlength="4" size="4" class="detailText" onclick="javascript:document.getElementById('plot').checked = true;" />&nbsp;x
                                                  <input type="text" name="img_h" value="600" maxlength="4" size="4" class="detailText" onclick="javascript:document.getElementById('plot').checked = true;" /></td>
                			</tr>
                 		<tr><td class="bodyText">
                             <input type="radio" id="ascii" value="ascii" name="out" /></td>
-                            <td class="bodyText"><label for="ascii">ASCII format (CSV)</label>&nbsp;<a href = "#" onclick="window.open(this.href, 'newwindow','width=630, height=700,left=300,location=no,resizable=no, scrollbars=yes, toolbar=no'); return false;" target = "_blank"><img src="../static/geomag-site/qm16.gif" width="16" height="16" border="0" /></a></td>
+                            <td class="bodyText"><label for="ascii">ASCII-формат (CSV)</label>&nbsp;<a href = "#" onclick="window.open(this.href, 'newwindow','width=630, height=700,left=300,location=no,resizable=no, scrollbars=yes, toolbar=no'); return false;" target = "_blank"><img src="../static/geomag-site/qm16.gif" width="16" height="16" border="0" /></a></td>
                         </tr>
                     </table>
                 </td>
@@ -140,7 +139,7 @@
                 </td>
               </tr>
             </table>
-            <em>By pressing the &quot;Submit&quot; button you accept the conditions of data use given in <a href="datapolicy.html" target="_blank">DATA POLICY</a> section.</em>
+            <em>При нажатии кнопки &quot;Запуск&quot; Вы соглашаетесь с условиями использования данных, приведенными в разделе <a href="datapolicy.html" target="_blank">DATA POLICY</a>.</em>
 			<p><strong>Подробная информация изложена в</strong></br>
 			<em>Lukianova, R., and F. Christiansen</em> (2006), Modeling of the global distribution of ionospheric electric fields based on realistic maps of field-aligned currents, J. Geophys. Res., 111, A03213, <a href="http://doi.org/10.1029/2005JA011465" target="_blank">doi:10.1029/2005JA011465</a>.</p>
         </form>
