@@ -7,8 +7,8 @@ import time
 
 import matplotlib
 
-#matplotlib.use('Agg')
-matplotlib.use('Qt5Agg')
+matplotlib.use('Agg')
+#matplotlib.use('Qt5Agg')
 import matplotlib.pyplot as plt
 from scipy.interpolate import griddata
 from mpl_toolkits.basemap import Basemap
@@ -61,7 +61,7 @@ def get_surf(file_name):
     Y = xyz_array[:, 0] * -1
     Z = xyz_array[:, 2]
 
-    print('\nMEAN: %s\n--------------' % np.mean(Z))
+   # print('\nMEAN: %s\n--------------' % np.mean(Z))
     return np.array([X, Y, Z]).T
     # return xyz_array
 
