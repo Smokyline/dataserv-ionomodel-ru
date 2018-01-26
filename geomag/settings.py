@@ -26,7 +26,7 @@ SECRET_KEY = '7$brlmyub5l8ft!sv$0@@rtf*n-dh((03xb+wpfl*ep+60(@y@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['93.180.14.17', '127.0.0.1']
+ALLOWED_HOSTS = ['aleph.gcras.ru']
 #ALLOWED_HOSTS = []
 
 

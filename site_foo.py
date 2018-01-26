@@ -12,13 +12,11 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from scipy.interpolate import griddata
 from mpl_toolkits.basemap import Basemap
-
-prj_path = os.getcwd()
-
+from geomag.settings import BASE_DIR
 
 def run_exe_program():
     out = subprocess.call(
-        'cd %s/E_FIELD_FAC_MODEL_FCP \nwine coef_ut.exe \nwine fac_bt_season.exe \nwine tph.exe \nwine ris_surfer_sigma.exe \nwine ris_surfer_fac.exe' % prj_path,
+        'cd %s/E_FIELD_FAC_MODEL_FCP\n wine coef_ut.exe\n wine fac_bt_season.exe\n wine tph.exe\n wine ris_surfer_sigma.exe\n  wine ris_surfer_fac.exe' % BASE_DIR,
         shell=True)
 
 
@@ -35,7 +33,7 @@ def find_th_name(param_dict):
 def set_param(param_dict):
     keys = ['bz', 'by', 'doy', 'kp', 'f107', 'ut']
     format_param = [' Bz=    v', ' By=    v', ' DOY=    v', ' Kp=    v', ' F107=  v', ' UT=    v']
-    f = open('%s/E_FIELD_FAC_MODEL_FCP/input data' % prj_path, 'w')
+    f = open('%s/E_FIELD_FAC_MODEL_FCP/input data' % BASE_DIR, 'w')
     for i, p in enumerate(format_param):
         line = p.replace('v', str(np.around(float(param_dict[keys[i]]), 1)))
         f.write(line + '\n')
@@ -53,7 +51,7 @@ def array_to_string(xyz):
 
 
 def get_surf(file_name):
-    file = open('E_FIELD_FAC_MODEL_FCP/' + file_name + '.dat')
+    file = open(BASE_DIR+'/E_FIELD_FAC_MODEL_FCP/' + file_name + '.dat')
     xyz_array = np.empty((0, 3))
     for line in file.readlines():
         xyz_array = np.append(xyz_array, [np.array(line.split()).astype(float)], axis=0)
@@ -168,7 +166,7 @@ def draw_map(name):
     plt.clabel(S, fontsize=5, inline=1, fmt=fmt)
 
     name += str(int(round(time.time() * 1000)))
-    path = os.path.join(os.path.dirname(os.path.join(os.getcwd(), os.listdir(os.getcwd())[0])), 'static/image/')
+    path = BASE_DIR + '/static/image/'
     plt.savefig((path + name), dpi=450)
     plt.close()
     return name
@@ -226,7 +224,7 @@ def draw_geo_map(name):
     plt.clabel(S, fontsize=5, inline=1, fmt=fmt)
 
     name += str(int(round(time.time() * 1000)))
-    path = os.path.join(os.path.dirname(os.path.join(os.getcwd(), os.listdir(os.getcwd())[0])), 'static/image/')
+    path = BASE_DIR + '/static/image/'
     plt.savefig((path + name), dpi=450)
     plt.close()
     return name
