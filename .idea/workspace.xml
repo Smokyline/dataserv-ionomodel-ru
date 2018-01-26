@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4784bf0-27ea-4378-814b-d7f707361b8c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/n_fac_surf.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/n_potential_surf.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/n_sigma_surf.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/s_fac_surf.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/s_sigma_surf.dat" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/N_potential.dat" afterPath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/N_potential.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/S_potential.dat" afterPath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/S_potential.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/coef_UT_n.dat" afterPath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/coef_UT_n.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/coef_UT_s.dat" afterPath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/coef_UT_s.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/input data" afterPath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/input data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/s_fac.dat" afterPath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/s_fac.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/s_potential_surf.dat" afterPath="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/s_potential_surf.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/geomag/settings.py" afterPath="$PROJECT_DIR$/geomag/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site_foo.py" afterPath="$PROJECT_DIR$/site_foo.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/geomag/urls.py" afterPath="$PROJECT_DIR$/geomag/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sss.py" afterPath="$PROJECT_DIR$/sss.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/geomag/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="52" lean-forward="false" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+            <state relative-caret-position="52">
+              <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
               <folding>
                 <element signature="e#640#672#0" expanded="true" />
               </folding>
@@ -52,21 +40,31 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/geomag/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="144">
+              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="site_foo.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="site_foo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site_foo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
-              <caret line="109" column="17" lean-forward="false" selection-start-line="109" selection-start-column="17" selection-end-line="109" selection-end-column="17" />
+            <state relative-caret-position="126">
+              <caret line="49" column="30" lean-forward="false" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
               <folding>
                 <element signature="e#1#12#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sss.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sss.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="183" lean-forward="true" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="183" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -84,8 +82,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/geomag/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="24" />
               <folding>
                 <element signature="e#0#47#0" expanded="true" />
                 <marker date="1509697527323" expanded="true" signature="0:11" ph="import ..." />
@@ -107,8 +105,18 @@
       <file leaf-file-name="dataserv-ionomodel-ru.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/dataserv-ionomodel-ru.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1422">
-              <caret line="79" column="72" lean-forward="false" selection-start-line="79" selection-start-column="72" selection-end-line="79" selection-end-column="72" />
+            <state relative-caret-position="378">
+              <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dynElements.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/geomag-site/dynElements.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="688" column="9" lean-forward="true" selection-start-line="688" selection-start-column="9" selection-end-line="688" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -143,6 +151,9 @@
       <find>ionomodel</find>
       <find>get_ws</find>
       <find>form1</find>
+      <find>geomag-site</find>
+      <find>servletName</find>
+      <find>93.180.14.17:8000</find>
     </findStrings>
     <replaceStrings>
       <replace>/static/geomag/</replace>
@@ -175,10 +186,8 @@
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/templates/print_ascii.html" />
         <option value="$PROJECT_DIR$/templates/print_ascii.html" />
-        <option value="$PROJECT_DIR$/geomag/urls.py" />
         <option value="$PROJECT_DIR$/geoplotlib_ex.py" />
         <option value="$PROJECT_DIR$/map.py" />
-        <option value="$PROJECT_DIR$/sss.py" />
         <option value="$PROJECT_DIR$/templates/dataserv-ionomodel-ru.html" />
         <option value="$PROJECT_DIR$/templates/dataserv-ionomodel-ru.html" />
         <option value="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/n_fac_surf.dat" />
@@ -186,14 +195,16 @@
         <option value="$PROJECT_DIR$/geomag/urls.py" />
         <option value="$PROJECT_DIR$/geomag/settings.py" />
         <option value="$PROJECT_DIR$/geomag/settings.py" />
-        <option value="$PROJECT_DIR$/site_foo.py" />
-        <option value="$PROJECT_DIR$/site_foo.py" />
         <option value="$PROJECT_DIR$/geomag/views.py" />
         <option value="$PROJECT_DIR$/geomag/views.py" />
+        <option value="$PROJECT_DIR$/site_foo.py" />
+        <option value="$PROJECT_DIR$/site_foo.py" />
+        <option value="$PROJECT_DIR$/geomag/urls.py" />
+        <option value="$PROJECT_DIR$/sss.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="51" />
     <option name="width" value="1280" />
     <option name="height" value="1024" />
@@ -213,7 +224,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -236,6 +246,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -460,14 +471,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="51" width="1280" height="1024" extended-state="0" />
+    <frame x="0" y="51" width="1280" height="1024" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23863636" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19642857" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33110815" sideWeight="0.50272477" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32576618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22028527" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28149828" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27142859" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19175911" sideWeight="0.4972752" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905363" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -478,7 +490,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32743362" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -616,24 +627,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/geoplotlib_ex.py" />
-    <entry file="file://$PROJECT_DIR$/../../../../anaconda3/lib/python3.5/site-packages/matplotlib/cbook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="135" column="0" lean-forward="false" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../anaconda3/lib/python3.5/site-packages/matplotlib/cbook.py" />
     <entry file="file://$PROJECT_DIR$/map.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="738">
           <caret line="44" column="22" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="44" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sss.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="71" lean-forward="false" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
         </state>
       </provider>
     </entry>
@@ -645,13 +643,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/input data2" />
-    <entry file="file://$PROJECT_DIR$/static/geomag-site/dynElements.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1127">
-          <caret line="684" column="70" lean-forward="false" selection-start-line="684" selection-start-column="70" selection-end-line="684" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/geomag/wsgi.py_OR">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -663,14 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/dataserv-ionomodel-ru.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1422">
-          <caret line="79" column="72" lean-forward="false" selection-start-line="79" selection-start-column="72" selection-end-line="79" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -702,13 +685,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/geomag/urls.py">
+    <entry file="file://$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/n_fac.dat">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="52" lean-forward="false" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
-          <folding>
-            <element signature="e#640#672#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="5" column="76" lean-forward="true" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
         </state>
       </provider>
     </entry>
@@ -716,22 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/n_fac.dat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="76" lean-forward="true" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geomag/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -744,17 +708,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/geomag/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-            <marker date="1509697527323" expanded="true" signature="0:11" ph="import ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/print_ascii.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -763,12 +716,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/geomag/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+            <marker date="1509697527323" expanded="true" signature="0:11" ph="import ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dataserv-ionomodel-ru.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/geomag-site/dynElements.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="688" column="9" lean-forward="true" selection-start-line="688" selection-start-column="9" selection-end-line="688" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/site_foo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="109" column="17" lean-forward="false" selection-start-line="109" selection-start-column="17" selection-end-line="109" selection-end-column="17" />
+        <state relative-caret-position="126">
+          <caret line="49" column="30" lean-forward="false" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
           <folding>
             <element signature="e#1#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sss.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="183" lean-forward="true" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="183" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geomag/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geomag/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+          <folding>
+            <element signature="e#640#672#0" expanded="true" />
           </folding>
         </state>
       </provider>
