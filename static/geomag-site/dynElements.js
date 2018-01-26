@@ -715,7 +715,7 @@ function generateRequestIono (formName, servletName)
 	}
 	var param = "?type=" + form.type.value + "&hem=" + form.hem.value + "&bz=" + form.bz.value + "&f107=" + form.f107.value + "&by=" + form.by.value + "&doy=" + form.doy.value + "&kp=" + form.kp.value + "&ut=" + form.ut.value + "&img_w=" + form.img_w.value + "&img_h=" + form.img_h.value + "&out="+outflag;
 	var res = new Array(2);
-	res[0] = 'http://93.180.14.17:8000/dataserv-ionomodel-ru/' + servletName + param;
+	res[0] = 'http://aleph.gcras.ru/dataserv-ionomodel-ru/' + servletName + param;
 	res[1] = form.type.value+'_'+form.hem.value+'_'+form.doy.value+'_'+servletName;
 	return res;
 }

@@ -16,7 +16,7 @@ from geomag.settings import BASE_DIR
 
 def run_exe_program():
     out = subprocess.call(
-        'cd %s/E_FIELD_FAC_MODEL_FCP\n wine coef_ut.exe\n wine fac_bt_season.exe\n wine tph.exe\n wine ris_surfer_sigma.exe\n  wine ris_surfer_fac.exe' % BASE_DIR,
+        'cd %s/E_FIELD_FAC_MODEL_FCP\nwine sig_ph_new.exe\n wine coef_ut.exe\n wine fac_bt_season.exe\n wine tph.exe\n wine ris_surfer_sigma.exe\n  wine ris_surfer_fac.exe' % BASE_DIR,
         shell=True)
 
 
@@ -38,7 +38,7 @@ def set_param(param_dict):
         line = p.replace('v', str(np.around(float(param_dict[keys[i]]), 1)))
         f.write(line + '\n')
     f.write('   BT=   %s\n' % (np.sqrt(float(param_dict['bz'])**2 + float(param_dict['by'])**2).round(1)))
-    f.write('   IMF clock angle=  45.0')
+    f.write('   IMF clock angle=  45.0\n')
     f.close()
 
 
