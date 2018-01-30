@@ -2,9 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4784bf0-27ea-4378-814b-d7f707361b8c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1499853939638.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1499853941174.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1499854095789.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1499854104663.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1499854109742.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1499854114964.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1509617705537.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1509617739290.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1509617776038.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1509697270624.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1509697364660.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1509698643353.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1509698680265.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1509698697993.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1509704313563.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1509705350137.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1509705372373.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1509705386584.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1510564992425.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1510564997803.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1510565006704.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1510565011756.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1510565028693.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1510565039810.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1510565061225.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1510565085245.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1510565111794.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1510565137933.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1510565307615.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1510565914375.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1510565939992.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1510565946963.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1510565953848.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1510566130812.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1510566156185.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1510566169370.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/image/n_fac_surf1510566191914.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/geomag/urls.py" afterPath="$PROJECT_DIR$/geomag/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sss.py" afterPath="$PROJECT_DIR$/sss.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/dataserv-ionomodel-ru.html" afterPath="$PROJECT_DIR$/templates/dataserv-ionomodel-ru.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +51,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/geomag/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+            <state relative-caret-position="468">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
                 <element signature="e#640#672#0" expanded="true" />
               </folding>
@@ -30,9 +66,11 @@
       <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/geomag/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="90">
+              <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+              <folding>
+                <element signature="e#223#237#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,30 +88,8 @@
       <file leaf-file-name="site_foo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site_foo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="49" column="30" lean-forward="false" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
-              <folding>
-                <element signature="e#1#12#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sss.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sss.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="183" lean-forward="true" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="183" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="input data" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/input data">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="54">
+              <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -92,31 +108,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="print_ascii.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/print_ascii.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dataserv-ionomodel-ru.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dataserv-ionomodel-ru.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/dataserv-ionomodel-ru.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+            <state relative-caret-position="264">
+              <caret line="23" column="58" lean-forward="false" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dynElements.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/geomag-site/dynElements.js">
+      <file leaf-file-name="Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="688" column="9" lean-forward="true" selection-start-line="688" selection-start-column="9" selection-end-line="688" selection-end-column="9" />
+            <state relative-caret-position="522">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -154,6 +160,9 @@
       <find>geomag-site</find>
       <find>servletName</find>
       <find>93.180.14.17:8000</find>
+      <find>93.180.14.17</find>
+      <find>geomag-</find>
+      <find>geomag</find>
     </findStrings>
     <replaceStrings>
       <replace>/static/geomag/</replace>
@@ -166,6 +175,7 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -188,19 +198,20 @@
         <option value="$PROJECT_DIR$/templates/print_ascii.html" />
         <option value="$PROJECT_DIR$/geoplotlib_ex.py" />
         <option value="$PROJECT_DIR$/map.py" />
-        <option value="$PROJECT_DIR$/templates/dataserv-ionomodel-ru.html" />
-        <option value="$PROJECT_DIR$/templates/dataserv-ionomodel-ru.html" />
         <option value="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/n_fac_surf.dat" />
         <option value="$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/input data" />
+        <option value="$PROJECT_DIR$/geomag/settings.py" />
+        <option value="$PROJECT_DIR$/geomag/settings.py" />
+        <option value="$PROJECT_DIR$/geomag/views.py" />
+        <option value="$PROJECT_DIR$/geomag/views.py" />
+        <option value="$PROJECT_DIR$/site_foo.py" />
+        <option value="$PROJECT_DIR$/site_foo.py" />
         <option value="$PROJECT_DIR$/geomag/urls.py" />
-        <option value="$PROJECT_DIR$/geomag/settings.py" />
-        <option value="$PROJECT_DIR$/geomag/settings.py" />
-        <option value="$PROJECT_DIR$/geomag/views.py" />
-        <option value="$PROJECT_DIR$/geomag/views.py" />
-        <option value="$PROJECT_DIR$/site_foo.py" />
-        <option value="$PROJECT_DIR$/site_foo.py" />
         <option value="$PROJECT_DIR$/geomag/urls.py" />
         <option value="$PROJECT_DIR$/sss.py" />
+        <option value="$PROJECT_DIR$/geomag/wsgi.py" />
+        <option value="$PROJECT_DIR$/templates/dataserv-ionomodel-ru.html" />
+        <option value="$PROJECT_DIR$/templates/dataserv-ionomodel-ru.html" />
       </list>
     </option>
   </component>
@@ -224,7 +235,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -240,13 +251,18 @@
             <path>
               <item name="dataserv-ionomodel-ru" type="b2602c69:ProjectViewProjectNode" />
               <item name="dataserv-ionomodel-ru" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dataserv-ionomodel-ru" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dataserv-ionomodel-ru" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -264,6 +280,161 @@
       <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$/static/image" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/N_potential.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/S_potential.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/coef_UT_n.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/coef_UT_s.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/input data</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/n_fac.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/n_fac_surf.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/n_potential_surf.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/s_fac.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/s_fac_surf.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/s_potential_surf.dat</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/geomag/__pycache__/settings.cpython-36.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/geomag/settings.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/geomag/wsgi.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/dataserv-ionomodel-ru.html</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/image/n_fac_surf1516970953454.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/image/n_fac_surf1516970958857.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/image/n_fac_surf1516970965108.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/image/n_fac_surf1516970970574.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/image/n_fac_surf1516970975444.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/image/n_fac_surf1516971169274.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/image/n_fac_surf1516971177350.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/image/n_fac_surf1516971203474.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/image/n_fac_surf1516971224148.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/image/n_fac_surf1516971254042.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/image/n_fac_surf1516971258067.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/image/n_fac_surf1516971319273.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/image/n_fac_surf1516971382839.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/image/n_fac_surf1516971387363.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/image/n_fac_surf1516971419249.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/image/n_fac_surf1516971432089.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/image/n_fac_surf1516971596272.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/image/n_fac_surf1516971602862.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/image/n_fac_surf1516971770070.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/image/n_fac_surf1516971845340.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/image/n_fac_surf1516971943952.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/image/n_fac_surf1516971950223.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/image/n_fac_surf1516972378979.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/image/n_fac_surf1516972397512.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/image/n_fac_surf1516972404333.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/image/n_fac_surf1516972407087.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/image/n_fac_surf1516972482370.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/image/n_fac_surf1516972594178.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/image/n_fac_surf1516972604417.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/image/n_fac_surf1516972610169.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/static/image/n_fac_surf1516972615654.png</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -472,11 +643,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="51" width="1280" height="1024" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19642857" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19967532" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33110815" sideWeight="0.50272477" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32576618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22028527" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27142859" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -490,6 +661,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32576618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -527,7 +699,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/n_fac_surf.dat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -608,13 +779,6 @@
     <entry file="file://$PROJECT_DIR$/visual_xyz_data.py" />
     <entry file="file://$PROJECT_DIR$/test.py.ipynb" />
     <entry file="file://$PROJECT_DIR$/templates/result.html" />
-    <entry file="file://$PROJECT_DIR$/templates/Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/image/n_fac_surf.png" />
     <entry file="file://$PROJECT_DIR$/static/image/n_potential_surf.png" />
     <entry file="file://$PROJECT_DIR$/static/image/s_fac_surf.png" />
@@ -647,13 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/geomag-site/geomag.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -692,19 +849,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/geomag/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/E_FIELD_FAC_MODEL_FCP/input data">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -712,6 +860,49 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geomag/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sss.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/.form.html.swp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/geomag-site/dynElements.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-254">
+          <caret line="688" column="9" lean-forward="false" selection-start-line="688" selection-start-column="9" selection-end-line="688" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/geomag-site/geomag.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4925">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Russian-Ukrainian Geomagnetic Data Center - Data Products - Plot.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -727,55 +918,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/dataserv-ionomodel-ru.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/geomag-site/dynElements.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="688" column="9" lean-forward="true" selection-start-line="688" selection-start-column="9" selection-end-line="688" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/site_foo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="49" column="30" lean-forward="false" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
-          <folding>
-            <element signature="e#1#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sss.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="183" lean-forward="true" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="183" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geomag/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="54">
+          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/geomag/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+        <state relative-caret-position="468">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="e#640#672#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geomag/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding>
+            <element signature="e#223#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dataserv-ionomodel-ru.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="23" column="58" lean-forward="false" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>
