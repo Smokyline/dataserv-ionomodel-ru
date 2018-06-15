@@ -3,6 +3,9 @@
 <!-- DW6 -->
 <head>
 
+    <script src="js/jquery-latest.min.js"></script>
+        <script src="js/slides.min.jquery.js"></script>
+	<script src="js/slidesLoader.js"></script>
 
 
 <!-- Copyright 2005 Macromedia, Inc. All rights reserved. -->
@@ -11,6 +14,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
 <link rel="stylesheet" href="http://geomag.gcras.ru/geomag.css" type="text/css" />
+<link rel="stylesheet" href="http://geomag.gcras.ru/slides.css" type="text/css" />
+
 
 <link rel="shortcut icon" type="image/gif" href="http://www.gcras.ru/gcicon.gif" />
 
@@ -26,7 +31,11 @@
 </head>
 <body bgcolor="#64748B">
 
+
 <table border="0" cellspacing="0" cellpadding="0" align="center"><tr align="center"><td align="center">
+
+
+<!-- nav bar???? -->
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
     <tr bgcolor="#26354A">
@@ -136,13 +145,13 @@
 		    <table border="0" width="100%" cellpadding="0" cellspacing="0">
             	    <tr>
                     	<td class="bodyText"><input type="radio" id="plot" value="plot" name="out" checked="checked" /></td>
-                            <td class="bodyText"><label for="plot">Графический вывод&nbsp;<a href = "#" onclick="window.open(this.href, 'newwindow','width=630, height=700,left=300,location=no,resizable=no, scrollbars=yes, toolbar=no'); return false;" target = "_blank"><img src="http://geomag.gcras.ru/image/qm16.gif" width="16" height="16" border="0" /></a>&nbsp;&nbsp;Размер изображения (ширина x высота):&nbsp;</label>
+                            <td class="bodyText"><label for="plot">Графический вывод&nbsp;<a href = "_" onclick="window.open(this.href, 'newwindow','width=630, height=700,left=300,location=no,resizable=no, scrollbars=yes, toolbar=no'); return false;" target = "_blank"><img src="http://geomag.gcras.ru/img/qm16.gif" width="16" height="16" border="0" /></a>&nbsp;&nbsp;Размер изображения (ширина x высота):&nbsp;</label>
                         			 <input type="text" name="img_w"  value="800" maxlength="4" size="4" class="detailText" onclick="javascript:document.getElementById('plot').checked = true;" />&nbsp;x
                                                  <input type="text" name="img_h" value="600" maxlength="4" size="4" class="detailText" onclick="javascript:document.getElementById('plot').checked = true;" /></td>
             	    </tr>
             	    <tr><td class="bodyText">
                             <input type="radio" id="ascii" value="ascii" name="out" /></td>
-                            <td class="bodyText"><label for="ascii">ASCII-формат (CSV)</label>&nbsp;<a href = "#" onclick="window.open(this.href, 'newwindow','width=630, height=700,left=300,location=no,resizable=no, scrollbars=yes, toolbar=no'); return false;" target = "_blank"><img src="http://geomag.gcras.ru/image/qm16.gif" width="16" height="16" border="0" /></a></td>
+                            <td class="bodyText"><label for="ascii">ASCII-формат (CSV)</label>&nbsp;<a href = "_" onclick="window.open(this.href, 'newwindow','width=630, height=700,left=300,location=no,resizable=no, scrollbars=yes, toolbar=no'); return false;" target = "_blank"><img src="http://geomag.gcras.ru/img/qm16.gif" width="16" height="16" border="0" /></a></td>
                         </tr>
                     </table>
                 </td>
