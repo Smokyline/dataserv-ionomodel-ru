@@ -1,6 +1,7 @@
 
 import math
 import os
+os.environ['PROJ_LIB'] = r'/home/ivan/anaconda3/pkgs/proj4-4.9.3-h516909a_9/share/proj'
 import numpy as np
 import subprocess
 import time
@@ -8,8 +9,8 @@ import fileinput
 
 import matplotlib
 #TODO agg
-#matplotlib.use('Agg')
-matplotlib.use('Qt5Agg')
+matplotlib.use('Agg')
+#matplotlib.use('Qt5Agg')
 import matplotlib.pyplot as plt
 from scipy.interpolate import griddata
 from mpl_toolkits.basemap import Basemap
@@ -167,7 +168,7 @@ def draw_map(name):
     ax = plt.axes([left, bottom, width, height])
     pax = plt.axes([left, bottom, width, height],
                    projection='polar',
-                   axisbg='none')
+                   facecolor='none')
     pax.set_yticks(np.arange(0, y.max(), 10))
     if name[0] == 'n':
         ylabels = np.arange(0, y.max(), 10).astype(int)

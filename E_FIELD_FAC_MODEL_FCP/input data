@@ -1,8 +1,8 @@
  Bz=    2.0
  By=    2.0
- DOY=     1.
- Kp=    1
- F107=   50.
+ DOY=   222.
+ Kp=    2
+ F107=  100.
  UT=    1.0
    BT=   2.8
    IMF clock angle=  45.0

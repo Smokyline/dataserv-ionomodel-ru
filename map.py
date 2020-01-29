@@ -2,8 +2,8 @@ from scipy.interpolate import griddata
 import numpy as np
 
 import matplotlib
-#matplotlib.use('Agg')
-matplotlib.use('Qt5Agg')
+matplotlib.use('Agg')
+#matplotlib.use('Qt5Agg')
 import matplotlib.pyplot as plt
 
 Angles = [-180, -90, 0 , 90, 180, -135,
@@ -28,7 +28,7 @@ left, bottom, width, height= [0,0, 1, 0.7]
 ax  = plt.axes([left, bottom, width, height])
 pax = plt.axes([left, bottom, width, height],
                 projection='polar',
-                axisbg='none')
+                facecolor='none')
 cax = plt.axes([0.8, 0, 0.05, 1])
 ax.set_aspect(1)
 ax.axis('Off')
