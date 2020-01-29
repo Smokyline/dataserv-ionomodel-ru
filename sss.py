@@ -8,7 +8,3 @@ bash_command(command='cd E_FIELD_FAC_MODEL_FCP \n wine sig_ph_new.exe\n wine coe
 
 
 
-
-
-
-

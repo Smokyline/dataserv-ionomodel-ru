@@ -4,6 +4,8 @@ from site_foo import *
 
 
 def show_res(request):
+    original_umask = os.umask(0)
+
     param_name = ['type', 'hem', 'bz', 'f107', 'by', 'doy', 'kp', 'ut', 'out', 'img_w', 'img_h']
     param_dict = {}
     for p in param_name:
@@ -16,6 +18,7 @@ def show_res(request):
     run_exe_program()
 
     data_type = find_th_name(param_dict)
+    os.umask(original_umask)
 
     if param_dict['out'] == 'plot':
         # show map
@@ -28,6 +31,7 @@ def show_res(request):
         xyz = get_surf(data_type)
         str_xyz = array_to_string(xyz)
         return render_to_response('print_ascii.html', {'XYZ': str_xyz})
+
 
 
 def ionomodel_form(request):

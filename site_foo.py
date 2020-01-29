@@ -4,21 +4,36 @@ import os
 import numpy as np
 import subprocess
 import time
+import fileinput
 
 import matplotlib
-
-matplotlib.use('Agg')
-#matplotlib.use('Qt5Agg')
+#TODO agg
+#matplotlib.use('Agg')
+matplotlib.use('Qt5Agg')
 import matplotlib.pyplot as plt
 from scipy.interpolate import griddata
 from mpl_toolkits.basemap import Basemap
 from geomag.settings import BASE_DIR
 
 def run_exe_program():
-    out = subprocess.call(
-        'cd %s/E_FIELD_FAC_MODEL_FCP\nwine sig_ph_new.exe\n wine coef_ut.exe\n wine fac_bt_season.exe\n wine tph.exe\n wine ris_surfer_sigma.exe\n  wine ris_surfer_fac.exe' % BASE_DIR,
-        shell=True)
+    """
+    cmd = '''
+    cd %s//E_FIELD_FAC_MODEL_FCP
+    wine sig_ph_new.exe
+    wine sig_ph_new.exe
+    wine coef_ut.exe
+    wine fac_bt_season.exe
+    wine tph.exe
+    wine ris_surfer_sigma.exe
+    wine ris_surfer_fac.exe
+    ''' % BASE_DIR
+    subprocess.check_output(cmd, shell=True)
 
+
+    """
+    out = subprocess.call(
+        'cd %s/E_FIELD_FAC_MODEL_FCP\n wine sig_ph_new.exe\n wine coef_ut.exe\n wine fac_bt_season.exe\n wine tph.exe\n wine ris_surfer_sigma.exe\n  wine ris_surfer_fac.exe' % BASE_DIR,
+        shell=True)
 
 def find_th_name(param_dict):
     type_hem = np.array(['n_fac', 's_fac', 'n_pot', 's_pot', 'n_sigh', 's_sigh'])
@@ -31,15 +46,50 @@ def find_th_name(param_dict):
 
 
 def set_param(param_dict):
+    keys = ['bz', 'by', 'doy', 'kp', 'f107', 'ut', 'bt', 'clock']
+    lines = [' Bz=       ',
+             ' By=       ',
+             ' DOY=       ',
+             ' Kp=     ',
+             ' F107=      ',
+             ' UT=       ',
+             '   BT=      ',
+             '   IMF clock angle=      ', ]
+
+    with open('%s/E_FIELD_FAC_MODEL_FCP/input data' % BASE_DIR, 'w', newline='\n') as f:
+        for i, key in enumerate(keys):
+            line = str(lines[i])
+            if key == 'bt':
+                v = str(np.sqrt((float(param_dict['bz']) ** 2) + (float(param_dict['by']) ** 2)).round(1))
+            elif key == 'clock':
+                v = str(np.rad2deg(np.arctan(float(param_dict['bz']) / float(param_dict['by']))).round(1))
+            elif key == 'doy' or key == 'f107':
+                v = str(int(param_dict[keys[i]])) + '.'
+            elif key == 'kp':
+                v = str(int(param_dict[keys[i]]))
+            else:
+                v = str(np.around(float(param_dict[keys[i]]), 1))
+
+            line = line[:len(line) - len(v)] + v
+            f.write(line + '\n')
+        f.close()
+
+    """
     keys = ['bz', 'by', 'doy', 'kp', 'f107', 'ut']
     format_param = [' Bz=    v', ' By=    v', ' DOY=    v', ' Kp=    v', ' F107=  v', ' UT=    v']
+
     f = open('%s/E_FIELD_FAC_MODEL_FCP/input data' % BASE_DIR, 'w')
     for i, p in enumerate(format_param):
         line = p.replace('v', str(np.around(float(param_dict[keys[i]]), 1)))
         f.write(line + '\n')
     f.write('   BT=   %s\n' % (np.sqrt(float(param_dict['bz'])**2 + float(param_dict['by'])**2).round(1)))
-    f.write('   IMF clock angle=  45.0\n')
+    f.write('   IMF clock angle=  %s\n'%str(np.rad2deg(np.arctan(float(param_dict['bz']) / float(param_dict['by']))).round(1)))
     f.close()
+       
+
+       """
+
+
 
 
 def array_to_string(xyz):

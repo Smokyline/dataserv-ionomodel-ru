@@ -16,7 +16,6 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
@@ -26,7 +25,7 @@ SECRET_KEY = '7$brlmyub5l8ft!sv$0@@rtf*n-dh((03xb+wpfl*ep+60(@y@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['aleph.gcras.ru']
+ALLOWED_HOSTS = ['aleph.gcras.ru', '127.0.0.1']
 #ALLOWED_HOSTS = []
 
 

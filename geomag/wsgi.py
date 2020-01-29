@@ -16,5 +16,6 @@ os.environ["DJANGO_SETTINGS_MODULE"] = "geomag.settings"
 
 application = get_wsgi_application()
 
-activate_this = "/home/ivan/anaconda3/bin/activate_this.py"
-exec(open(activate_this).read())
+#TODO env
+#activate_this = "/home/ivan/anaconda3/bin/activate_this.py"
+#exec(open(activate_this).read())
